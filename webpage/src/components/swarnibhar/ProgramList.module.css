@@ -1,0 +1,51 @@
+.programList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .programItem {
+    border-radius: 15px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    margin-top: 15px;
+    padding-left: 20px;
+    gap: 20px;
+    font-size: 20px;
+    justify-content: space-between;
+    width:58%;
+  }
+  
+  .programTitle {
+    color: #fff;
+    font-family: Nunito, sans-serif;
+    font-weight: 500;
+    margin: auto 0;
+  }
+  
+  .programButton {
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins, sans-serif;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    padding: 8px 18px;
+  }
+  
+  .purple { background-color: rgba(177, 151, 227, 1); }
+  .green { background-color: rgba(131, 167, 143, 1); }
+  .orange { background-color: rgba(242, 144, 73, 1); }
+  .lavender { background-color: rgba(139, 112, 191, 1); }
+  .pink { background-color: rgba(162, 50, 126, 1); }
+  
+  @media (max-width: 991px) {
+    .programItem {
+      max-width: 100%;
+    }
+  
+    .programButton {
+      padding: 8px 20px;
+    }
+  }

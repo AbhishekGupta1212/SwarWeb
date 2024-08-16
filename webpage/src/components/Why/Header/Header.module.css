@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 80px;
+  }
+  
+  .logoContainer {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.81);
+    box-shadow: 0 7px 4px rgba(0, 0, 0, 0.25);
+    align-self: flex-end;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  
+  .logo1 {
+    aspect-ratio: 3.56;
+    object-fit: contain;
+    width: 178px;
+    max-width: 100%;
+  }
+  
+  .logo2 {
+    aspect-ratio: 2.22;
+    object-fit: contain;
+    width: 111px;
+    max-width: 100%;
+  }
+  
+  .logo3 {
+    aspect-ratio: 4.83;
+    object-fit: contain;
+    width: 241px;
+    max-width: 100%;
+  }
+  
+  .logo4 {
+    aspect-ratio: 4.67;
+    object-fit: contain;
+    width: 234px;
+    max-width: 100%;
+  }
+  
+  .logo5 {
+    aspect-ratio: 3.32;
+    object-fit: contain;
+    width: 166px;
+    max-width: 100%;
+  }
+  
+  .logo6 {
+    aspect-ratio: 1.2;
+    object-fit: contain;
+    width: 60px;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  
+    .logoContainer {
+      padding: 0 20px;
+    }
+  }

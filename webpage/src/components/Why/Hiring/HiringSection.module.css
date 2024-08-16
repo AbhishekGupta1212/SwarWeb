@@ -1,0 +1,118 @@
+.container {
+    align-self: center;
+    margin-top: 25px;
+    width: 1320px;
+    max-width: 100%;
+  }
+  
+  .content {
+    display: flex;
+    gap: 40px;
+  }
+  
+  @media (max-width: 991px) {
+    .content {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  
+  .candidateColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 45%;
+    margin-left: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .candidateColumn {
+      width: 100%;
+    }
+  }
+  
+  .candidateCard {
+    border-radius: 32px;
+    background-color: #212833;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    color: #fffdfa;
+    letter-spacing: -0.64px;
+    width: 100%;
+    padding: 30px 24px;
+    font: 400 32px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .candidateCard {
+      max-width: 100%;
+      margin-top: 24px;
+      padding: 0 20px;
+    }
+  }
+  
+  .cardTitle {
+    align-self: start;
+    margin-left: 16px;
+  }
+  
+  @media (max-width: 991px) {
+    .cardTitle {
+      margin-left: 10px;
+    }
+  }
+  
+  .cardImage {
+    /* aspect-ratio: 2.02; */
+    /* object-fit: contain; */
+    object-position: center;
+    width: 100%;
+    margin-top: 31px;
+  }
+  
+  .roleColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 85%;
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .roleColumn {
+      width: 100%;
+    }
+  }
+  
+  .roleCard {
+    border-radius: 32px;
+    background-color: #f3ede6;
+    flex-grow: 1;
+    color: #212833;
+    letter-spacing: -1.44px;
+    width: 100%;
+    padding: 204px 32px 86px;
+    font: 400 40px/52px Georgia, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .roleCard {
+      max-width: 100%;
+      margin-top: 24px;
+      padding: 100px 20px 0;
+    }
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }

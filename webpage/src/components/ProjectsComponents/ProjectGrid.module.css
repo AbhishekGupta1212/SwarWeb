@@ -1,0 +1,15 @@
+.projectGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    padding: 20px 0;
+  }
+   
+  h5{
+    text-align: center;
+  }
+  @media (max-width: 991px) {
+    .projectGrid {
+      grid-template-columns: 1fr;
+    }
+  }

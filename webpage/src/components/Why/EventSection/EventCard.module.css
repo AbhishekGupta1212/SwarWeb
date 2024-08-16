@@ -1,0 +1,31 @@
+.eventCard {
+    background-color: #fff;
+    border-radius: 25px 25px 0 0;
+    overflow: hidden;
+  }
+  
+  .eventImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .eventDetails {
+    padding: 20px;
+  }
+  
+  .eventDate {
+    display: inline-block;
+    background-color: #fee7aa;
+    border-radius: 14px;
+    font-size: 12px;
+    padding: 5px 6px;
+    margin-bottom: 9px;
+  }
+  
+  .eventTitle {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    color: #000;
+  }

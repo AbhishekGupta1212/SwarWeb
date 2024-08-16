@@ -1,0 +1,111 @@
+.cardContainer {
+    align-self: center;
+    margin-top: 30px;
+    width: 1320px;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .cardGrid {
+    display: flex;
+    gap: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .cardGrid {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  
+  .imageCard {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 67%;
+    margin-left: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .imageCard {
+      width: 100%;
+    }
+  }
+  
+  .imageWrapper {
+    border-radius: 32px;
+    background-color: rgba(144, 147, 150, 1);
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    min-height: 373px;
+    width: 100%;
+  }
+  
+  @media (max-width: 991px) {
+    .imageWrapper {
+      max-width: 100%;
+      margin-top: 24px;
+    }
+  }
+  
+  .cardImage {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .imageOverlay {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.33);
+    padding: 276px 32px 58px;
+    color: rgba(255, 253, 250, 1);
+    letter-spacing: -1.44px;
+    font: 400 40px/1.3 Georgia, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .imageOverlay {
+      max-width: 100%;
+      padding: 100px 20px 0;
+    }
+  }
+  
+  .textCard {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .textCard {
+      width: 100%;
+    }
+  }
+  
+  .cardText {
+    border-radius: 32px;
+    background-color: rgba(0, 97, 254, 1);
+    flex-grow: 1;
+    color: rgba(255, 253, 250, 1);
+    letter-spacing: -0.64px;
+    width: 100%;
+    padding: 211px 32px 42px;
+    font: 400 32px Poppins, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .cardText {
+      max-width: 100%;
+      margin-top: 24px;
+      padding: 100px 20px 0;
+    }
+  }

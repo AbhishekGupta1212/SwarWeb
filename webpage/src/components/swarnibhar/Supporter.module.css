@@ -1,0 +1,10 @@
+.supporters {
+    margin-top: 20px;
+  }
+  
+  .supportersTitle {
+    color: rgba(49, 54, 67, 1);
+    text-align: center;
+    font: 400 24px Poppins, sans-serif;
+margin-bottom: 60px;
+  }

@@ -1,0 +1,68 @@
+.mainContent {
+    position: relative;
+    z-index: 10;
+    margin-top: -40px;
+    background-image: url("https://cdn.builder.io/api/v1/image/assets/TEMP/b339543a9142dee91dd2230c7788b0a6d2b62dba90c1256cdecc55cdd808cf04?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca");
+  }
+  
+  .contentWrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .descriptionSection {
+    width: 60%;
+  }
+  
+  .description {
+    color: rgba(36, 35, 49, 1);
+    text-align: center;
+    align-self: end;
+    width: 905px;
+    font: 400 25px/39px Nunito, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-left: 264px;
+    /* margin-bottom: 150px; */
+  }
+  
+  .programsContainer {
+    margin-top: 39px;
+    width: 755px;
+    max-width: 100%;
+  }
+  
+  .featuredImage {
+    aspect-ratio: 1.2;
+    object-fit: contain;
+    object-position: center;
+    width: 35%;
+    border-radius: 0;
+    margin-top: 90px;
+    margin-right: 10px;
+    flex-grow: 1;
+  }
+  
+  @media (max-width: 991px) {
+    .mainContent {
+      max-width: 100%;
+    }
+  
+    .contentWrapper {
+      flex-direction: column;
+    }
+  
+    .descriptionSection {
+      width: 100%;
+    }
+  
+    .description {
+      max-width: 100%;
+  
+    }
+  
+    .featuredImage {
+      width: 100%;
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }

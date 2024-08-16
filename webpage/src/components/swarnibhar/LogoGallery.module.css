@@ -1,0 +1,43 @@
+.logoGallery {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.81);
+    box-shadow: 0 7px 4px rgba(0, 0, 0, 0.25);
+    align-self: center;
+    z-index: 10;
+    display: flex;
+    margin-top: -59px;
+    width: 1216px;
+    max-width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 38px 48px;
+    margin-left: 100px;
+  }
+  
+  @media (max-width: 991px) {
+    .logoGallery {
+      padding: 0 20px;
+    }
+  }
+  
+  .logo {
+    object-fit: contain;
+    object-position: center;
+    max-width: 100%;
+  }
+  
+  .logo1 { width: 147px; aspect-ratio: 2.94; }
+  .logo2 { width: 50px; aspect-ratio: 1; }
+  .logo3 { width: 88px; aspect-ratio: 1.76; }
+  .logo4 { width: 143px; aspect-ratio: 2.86; }
+  .logo5 { width: 144px; aspect-ratio: 2.88; }
+  .logo6 { width: 148px; aspect-ratio: 2.96; }
+  .logo7 { width: 120px; aspect-ratio: 2.9; }
+  .logo8 { width: 120px; aspect-ratio: 2.9; }
+  .logo9 { width: 120px; aspect-ratio: 2.9; }
+  .logo10 { width: 120px; aspect-ratio: 2.9; }
+  .logo11{ width: 120px; aspect-ratio: 2.9; }
+  .logo12 { width: 120px; aspect-ratio: 2.9; }
+  .logo13 { width: 120px; aspect-ratio: 2.9; }
+  .logo14 { width: 120px; aspect-ratio: 2.9; }

@@ -1,0 +1,79 @@
+.header {
+    position: relative;
+    align-self: center;
+    display: flex;
+    width: 1260px;
+    max-width: 100%;
+    align-items: start;
+    gap: 20px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    aspect-ratio: 1.04;
+    object-fit: contain;
+    object-position: center;
+    width: 58px;
+  }
+  
+  .headerContent {
+    align-self: end;
+    display: flex;
+    margin-top: 46px;
+    flex-direction: column;
+    font-family: Nunito, sans-serif;
+    line-height: 1.1;
+    margin-left: 90px;
+  }
+  
+  .tagline {
+    border-radius: 10px;
+    background-color: rgba(255, 240, 231, 1);
+    align-self: center;
+    width: 145px;
+    max-width: 100%;
+    font-size: 20px;
+    color: rgba(255, 51, 0, 1);
+    white-space: nowrap;
+    padding: 16px 25px;
+    border: 1px solid rgba(255, 208, 179, 1);
+  }
+  
+  .mainTitle {
+    color: rgba(36, 35, 49, 1);
+    font-size: 96px;
+    margin-top: 10px;
+  }
+  
+  .loginButton {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    padding: 10px 50px 10px;
+    font: 20px Poppins, sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+  }
+
+  @media (max-width: 991px) {
+    .headerContent {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .tagline {
+      white-space: initial;
+      padding: 16px 20px;
+    }
+  
+    .mainTitle {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  
+    .loginButton {
+      padding: 16px 20px 10px;
+    }
+  }

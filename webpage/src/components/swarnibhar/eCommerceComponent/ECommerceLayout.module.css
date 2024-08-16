@@ -1,0 +1,31 @@
+.eCommerceLayout {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    margin-left: 125px;
+  }
+  
+  .productGrid {
+    margin-top: 50px;
+    width: 630px;
+    max-width: 100%;
+    display: flex;
+    gap: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .eCommerceLayout {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  
+    .productGrid {
+      margin-top: 40px;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }

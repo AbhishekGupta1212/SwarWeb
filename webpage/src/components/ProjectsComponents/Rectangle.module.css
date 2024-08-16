@@ -1,0 +1,50 @@
+.featureCardsContainer {
+    align-self: center;
+    margin-top: 43px;
+    width: 1260px;
+    max-width: 100%;
+  }
+  
+  @media (max-width: 991px) {
+    .featureCardsContainer {
+      margin-top: 40px;
+    }
+  }
+  
+  .featureCardsGrid {
+    gap: 80px;
+    display: flex;
+    margin-top: -20px;
+  }
+  
+  @media (max-width: 991px) {
+    .featureCardsGrid {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  
+  .featureCardWrapper {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .featureCardWrapper {
+      width: 100%;
+    }
+  }
+  
+  .featureCardWrapper:not(:first-child) {
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .featureCardWrapper:not(:first-child) {
+      margin-left: 0;
+    }
+  }
