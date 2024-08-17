@@ -14,8 +14,6 @@ import Footer from "./Footer";
 function Main() {
   return (
     <div className={styles.mainContainer}>
-      {/* <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b339543a9142dee91dd2230c7788b0a6d2b62dba90c1256cdecc55cdd808cf04?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca" alt="" className={styles.backgroundImage} /> */}
-      
       <Header />
       <MainContent />
       <Supporter />

@@ -1,20 +1,27 @@
-.header {
+/* .header {
     display: flex;
     margin-top: 30px;
     width: 100%;
     flex-direction: column;
     padding: 0 80px;
-  }
+  } */
   
   .logoContainer {
+
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.81);
     box-shadow: 0 7px 4px rgba(0, 0, 0, 0.25);
-    align-self: flex-end;
+    align-self: center;
+    z-index: 10;
     display: flex;
-    gap: 15px;
+    margin-top: 30px;
+    width: 1216px;
+    max-width: 100%;
+    gap: 20px;
     flex-wrap: wrap;
-    padding: 30px;
+    justify-content: space-between;
+    /* padding: 38px 48px; */
+    margin-left: 100px;
   }
   
   .logo1 {
@@ -57,7 +64,23 @@
     object-fit: contain;
     width: 60px;
   }
-  
+  .logo7 { width: 100px; aspect-ratio: 2.5; }
+  .logo8 { width: 100px; aspect-ratio: 2.5; }
+  .logo9 { width: 100px; aspect-ratio: 2.5; }
+  /* .logo10 { width: 70px; aspect-ratio: 2.5; } */
+  .logo11{ width: 70px; aspect-ratio: 2.5; }
+  .logo12 { width: 100px; aspect-ratio: 2.5; }
+  .logo13 { width: 100px; aspect-ratio: 2.5; }
+  .logo14 { width: 100px; aspect-ratio: 2.5; }
+
+  .logoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin: auto; */
+  }
+
   @media (max-width: 991px) {
     .header {
       max-width: 100%;
