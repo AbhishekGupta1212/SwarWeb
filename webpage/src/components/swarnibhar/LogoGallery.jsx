@@ -23,6 +23,7 @@ function LogoGallery() {
   return (
 <Carousel
 additionalTransfrom={0}
+arrows={false}
 autoPlay
 autoPlaySpeed={500}
 centerMode={false}

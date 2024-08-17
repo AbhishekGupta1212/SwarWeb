@@ -15,7 +15,9 @@ const LearnSection = () => {
           Upskill by participating in hackathons, live <span className={styles.highlight}>events</span>, and speaker sessions.
         </p>
       </div>
-      <div className={styles.imageContainer} />
+      <div className={styles.imageContainer}/>
+      
+
     </section>
   );
 };

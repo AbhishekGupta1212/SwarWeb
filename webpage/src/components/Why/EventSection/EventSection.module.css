@@ -1,11 +1,11 @@
 .eventsSection {
     background-color: #f0f2ff;
-    padding: 50px 8px;
-    width: 100%;
+    padding: 50px 30px;
+    width: 101%;
+    margin-top: 8px;
   }
   
-  .sectionTitle,
-  .pastEventsTitle {
+  .sectionTitle {
     color: #313643;
     font: 500 32px Poppins, sans-serif;
     text-align: center;
@@ -13,14 +13,18 @@
   }
   
   .pastEventsTitle {
+    /* color: #313643; */
+    font: 500 32px Poppins, sans-serif;
+    text-align: center;
+    /* margin-bottom: 30px; */
     color: #02081f;
     font-weight: 700;
-    margin-top: 111px;
+    margin-top: 18px;
   }
   
   .categoryButtons {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     gap: 15px;
     margin-bottom: 30px;

@@ -108,8 +108,8 @@
     display: flex;
     flex-grow: 1;
     align-items: flex-start;
-    gap: 40px 71px;
-    width: 100%;
+    /* gap: 40px 71px; */
+    width: 90%;
     padding: 10px 48px 63px 23px;
     /* background: rgba(255, 255, 255, 0.11);
 border-radius: 16px;

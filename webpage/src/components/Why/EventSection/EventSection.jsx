@@ -27,8 +27,10 @@ const pastEvents = [
 ];
 
 const EventsSection = () => (
-  <section className={styles.eventsSection}>
-    <h2 className={styles.sectionTitle}>Upcoming events you shouldn't miss</h2>
+  <>
+   <h2 className={styles.sectionTitle}>Upcoming events you shouldn't miss</h2> 
+    <section className={styles.eventsSection}>
+   
     <h2 className={styles.pastEventsTitle}>
       Discover something for every interest: Explore our past events
     </h2>
@@ -43,6 +45,8 @@ const EventsSection = () => (
       ))}
     </div>
   </section>
+  </>
+
 );
 
 export default EventsSection;
