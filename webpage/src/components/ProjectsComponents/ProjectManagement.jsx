@@ -40,7 +40,7 @@ const ProjectManagement = () => {
           />
         </div>
       </section>
-      <h2 className={styles.sectionTitle}>Why do projects?</h2>
+      <h2 className={styles.sectionTitle}>Create a portfolio of work that brings in profit.</h2>
       <Rectangle/>
       <CategoryFilter/>
       <ProjectSection/>

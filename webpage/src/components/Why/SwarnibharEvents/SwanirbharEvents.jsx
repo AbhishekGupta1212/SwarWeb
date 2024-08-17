@@ -7,7 +7,7 @@ function SwanirbharEvents() {
       <div className={styles.content}>
         <h1 className={styles.title}>Swanirbhar events</h1>
         <p className={styles.description}>
-          Get access to free LIVE events that help you explore your favorite fields and grow to the next level. They're taken by industry experts having vast knowledge about their subject.
+         The capacity to network and establish connections with like-minded people is one of the most important aspects of being an entrepreneuer. Swanirbhar takes pride in organizing several gatherings that serve to unite individuals.
         </p>
       </div>
     </section>

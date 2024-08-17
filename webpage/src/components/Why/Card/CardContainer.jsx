@@ -12,7 +12,7 @@ const CardContainer = () => {
     },
     {
       type: 'text',
-      text: 'Only pre-Screened, high quality candidates'
+      text: 'Only pre-Screened, members'
     }
   ];
 

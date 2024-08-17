@@ -6,13 +6,13 @@ const NetworkSection = () => {
     <section className={styles.networkSection}>
       <div className={styles.content}>
         <h3 className={styles.title}>
-          <span className={styles.highlight}>Network</span> with smart people
+          <span className={styles.highlight}>Network</span> with people who have been pre-screened.
         </h3>
         <p className={styles.description}>
-          Great things happen when great people come together. It's magic!
+          When outstanding people join together, amazing things happen. It works like the impossible possible!
         </p>
         <p className={styles.description}>
-          Connect with a diverse community of creative minds to network, share ideas, and gain valuable into you craft.
+          Connect with a diverse community of creative minds to network, exchange ideas, and learn important skills for developing your business.
         </p>
       </div>
       <div className={styles.imageWrapper}>

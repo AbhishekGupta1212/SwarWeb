@@ -1,0 +1,175 @@
+.container {
+    background-color: #160828;
+    align-self: center;
+    display: flex;
+    margin-top: 34px;
+    width: 93%;
+    margin: auto;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 72px 0 22px;
+  }
+  
+  .logo {
+    aspect-ratio: 14.49;
+    object-fit: contain;
+    object-position: center;
+    width: 87px;
+    align-self: flex-end;
+    margin-right: 154px;
+  }
+  
+  @media (max-width: 991px) {
+    .logo {
+      margin-right: 10px;
+    }
+  }
+  
+  .content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 26px;
+  }
+  
+  @media (max-width: 991px) {
+    .content {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  
+  .innerContent {
+    width: 889px;
+    max-width: 100%;
+  }
+  
+  .twoColumnLayout {
+    gap: 20px;
+    display: flex;
+  }
+  
+  @media (max-width: 991px) {
+    .twoColumnLayout {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  
+  .leftColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 23%;
+    margin-left: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .leftColumn {
+      width: 100%;
+    }
+  }
+  
+  .imageStack {
+    display: flex;
+    margin-top: 8px;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 991px) {
+    .imageStack {
+      margin-top: 40px;
+    }
+  }
+  
+  .rightColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 77%;
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .rightColumn {
+      width: 100%;
+    }
+  }
+  
+  .signUpContent {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  @media (max-width: 991px) {
+    .signUpContent {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  
+  .signUpHeading {
+    font-size: 40px;
+    align-self: stretch;
+    z-index: 10;
+  }
+  
+  @media (max-width: 991px) {
+    .signUpHeading {
+      max-width: 100%;
+    }
+  }
+  
+  .maskGroup {
+    display: flex;
+    margin-top: -71px;
+    width: 116px;
+    height: 87px;
+  }
+  
+  .submitButton {
+    border-radius: 10px;
+    background-color: #2b59ff;
+    width: 344px;
+    max-width: 100%;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  @media (max-width: 991px) {
+    .submitButton {
+      padding: 10px 20px;
+    }
+  }
+  
+  .bottomSection {
+    align-self: flex-end;
+    display: flex;
+    width: 1176px;
+    max-width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }

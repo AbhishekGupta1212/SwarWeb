@@ -9,6 +9,7 @@
     font-weight: 400;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 102px;
   }
   
   .logo {
@@ -21,7 +22,7 @@
   .headerContent {
     align-self: end;
     display: flex;
-    margin-top: 46px;
+    margin-top: 20px;
     flex-direction: column;
     font-family: Nunito, sans-serif;
     line-height: 1.1;
@@ -45,6 +46,8 @@
     color: rgba(36, 35, 49, 1);
     font-size: 96px;
     margin-top: 10px;
+    margin-bottom: 24px;
+    font-weight: 100;
   }
   
   .loginButton {

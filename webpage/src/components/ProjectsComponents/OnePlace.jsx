@@ -6,12 +6,13 @@ function OnePlace() {
   
   return (
     <section className={styles.section}>
+       <h1 className={styles.oneTitle}>Hire the best talent with proof of work.</h1>
       <div className={styles.container}>
         <div className={styles.leftColumn}>
           <div className={styles.contentWrapper}>
-            <h1 className={styles.title}>
-              One place for 3 things <br /> 👉🏻
-            </h1>
+            <h2 className={styles.title}>
+              Hire in 15 minutes from nation's largest pre-screened talent pool.
+            </h2>
             <button className={styles.ctaButton}>Download the app</button>
           </div>
         </div>
@@ -71,7 +72,7 @@ function OnePlace() {
 >
           <div className={styles.featureBox}>
             <p className={styles.featureText}>
-              Earn <span style={{color: "#000"}}> by discovering the best work opportunities </span>
+             Discover <span style={{color: "#000"}}> rare, unique talent that other platforms can't provide </span>
             </p>
             <div className={styles.imageWrapper}>
               <img 
@@ -93,7 +94,7 @@ function OnePlace() {
           </div>
           <div className={styles.featureBox}>
             <p className={styles.featureText}>
-              Learn <span style={{color: "#000"}}> by participating in live events, hackathons and webinar </span>
+              Delegate <span style={{color: "#000"}}> tasks and enhance teamwork by involving multiple contributors </span>
             </p>
             <div className={styles.imageWrapper}>
               <img 
@@ -115,7 +116,7 @@ function OnePlace() {
           </div>
           <div className={styles.featureBox}>
             <p className={styles.featureText}>
-              Network <span style={{color: "#000"}}> with builders, creators, and leaders of tomorrow. </span>
+              Form teams, <span style={{color: "#000"}}>assign members, manage events, and customize permissions effortlessly</span>
             </p>
             <div className={styles.imageWrapper}>
               <img 

@@ -6,13 +6,13 @@ const LearnSection = () => {
     <section className={styles.learnSection}>
       <div className={styles.content}>
         <h3 className={styles.title}>
-          <span className={styles.highlight}>Learn</span> by doing and taking inspiration from others
+          <span className={styles.highlight}>Acquire</span> knowledge by doing and drawing ideas from others .
         </h3>
         <p className={styles.description}>
-          Talk to people about design, marketing, web3, and a lot more!
+          Talk to individuals about marketing, business, creativity and lots of other topics.
         </p>
         <p className={styles.description}>
-          Upskill by participating in hackathons, live <span className={styles.highlight}>events</span>, and speaker sessions.
+          Participate in speaker sessions <span className={styles.highlight}>live events</span>, and award shows to advance your skills.
         </p>
       </div>
       <div className={styles.imageContainer}/>

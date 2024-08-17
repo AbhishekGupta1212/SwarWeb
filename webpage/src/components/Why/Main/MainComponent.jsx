@@ -17,7 +17,7 @@ const MainComponent = () => {
   return (
     <main className={styles.mainContainer}>
       <Header/>
-      <SectionTitle>Things you can do on swanirbhar 👇🏻</SectionTitle>
+      <SectionTitle>Why should you join the community? 👇🏻</SectionTitle>
       <LearnSection />
       <EarnSection />
       {/* <ParallaxOverlapping/> */}

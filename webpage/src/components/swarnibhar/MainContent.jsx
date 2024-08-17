@@ -2,14 +2,17 @@ import React from "react";
 import ProgramList from "./ProgramList";
 import WaitlistButton from "./WaitlistButton";
 import styles from "./MainContent.module.css";
+import Header from "./Header";
 
 function MainContent() {
   return (
     <main className={styles.mainContent}>
+      <img src="https://s3-alpha-sig.figma.com/img/047b/1ff6/b942cc95041f69a84cbd27c52d7c0bc7?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GoggCSYVjIbCtkRwbczsg5D2nHuXVuEkClSoa7jA0fvh3XSpGyR1QtBYTk8S-uaX43fKeQ99gszhQcNrlOky9DUZvHM2C0b98oiGd96PiAoiVJyo13qiVXd~s1MlZiOgxvLPdyJirPMSwowByilZp2gWE0NP2gpAfvVoyD5SCd4u5C2DGvaJaMFMVUk8L~auewvtyEP7gALz0wGY9DdbYeRQY8CP8X~o7sAgu3VmZYxeuWa13uxLfY67jjOgUxN7aEXYQWm5VDjLGNnDnKrkVR~n6jVroFRhqA1PTXmHiFvOfEA0GB02DxDGnGff8k15twoXFowEU6KDQa~ukfp5cQ__" alt="" className={styles.image} />
+      <Header/>
       <div className={styles.contentWrapper}>
         <section className={styles.descriptionSection}>
           <h2 className={styles.description}>
-            Thrive Global Creators And Communities: Swanirbhar: Your Platform For Member's Satisfaction And Revenue Generation
+            Swanirbhar takes pride in being a platform that gives people access to tools that enable them to collabrate and create innovative solutions for India's future
           </h2>
           <div className={styles.programsContainer}>
               <WaitlistButton />  

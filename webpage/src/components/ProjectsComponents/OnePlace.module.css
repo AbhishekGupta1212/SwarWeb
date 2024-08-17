@@ -2,7 +2,7 @@
     margin-top: 30px;
     width: 100%;
     overflow: hidden;
-    padding: 10px 57px;
+    padding: 20px 57px;
     background-image: url('https://s3-alpha-sig.figma.com/img/ed10/b0be/1a15674ecc7e4ea341b07d042780d8ca?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fpWF842My~oiXJGIsU5T2SKzMg5rpyiBePkOv6uiy5HSBb-EXL-jdWN2UES5GoZGP3aVmjVJSzbHQ7KSwyhte7SP1pocaR2UCev2a18j~vTqOlvxvWxAVy35AzJS39-GJXJd1p2YuwyBcZHynw2asOFKJPj5ERNns68h5R93MHvYlUu~Gn4K6cO2oN5NWNYznjzRYufTp6-x~2JvNaJLCRTNQOTjQsUPNYUZeBTiTVB0Qutj2~vibEWYFGbEnJKhS-pYEQFqtl5-fRer0okcUoRCG-ITYwey-WaarlKoG9tbHkqkjhSyShxQx-2L9ei5abDG9hgvLSlhBGnyQjXhtQ__');
   }
   
@@ -54,11 +54,15 @@
       margin-top: 40px;
     }
   }
-  
+  .oneTitle{
+    text-align: center;
+    font-size: 64px;
+  }
   .title {
     color: #000;
-    font-size: 64px;
-    width: 65%;
+    font-size: 60px;
+  
+    width: 100%;
   }
   
   @media (max-width: 991px) {

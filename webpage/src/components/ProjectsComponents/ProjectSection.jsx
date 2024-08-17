@@ -7,6 +7,7 @@ const ProjectSection = () => {
     <section className={styles.projectSection}>
       <h2 className={styles.sectionTitle}>Project Challenges</h2>
       <ProjectGrid />
+     
     </section>
   );
 };

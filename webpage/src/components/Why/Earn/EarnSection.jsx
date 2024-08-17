@@ -15,13 +15,13 @@ const EarnSection = () => {
         <section className={styles.earnSection}>
       <div className={styles.content}>
         <h3 className={styles.title}>
-          Earn <span className={styles.highlight}>you next paycheck</span>
+         Make <span className={styles.highlight}>your first profit.</span>
         </h3>
         <p className={styles.description}>
-          Find the best gigs & internships from across 50+ niches to grow in your career.
+          Find the best mentors from across 50+ niches to grow in your career.
         </p>
         <p className={styles.description}>
-          Are you hiring? <span className={styles.link}>Find talent</span>.
+          Do you have openings ? <span className={styles.link}>Identify talent</span>.
         </p>
       </div>
       <div className={styles.imageWrapper}>

@@ -5,7 +5,7 @@ import FeatureSection from "./VisionSection";
 function VisionComponent() {
   return (
     <>
-     <section className={styles.visionText}>Vision</section>
+     <section className={styles.visionText}>Things You Can Do On Swanirbhar.</section>
      <FeatureSection/>
     </>
    

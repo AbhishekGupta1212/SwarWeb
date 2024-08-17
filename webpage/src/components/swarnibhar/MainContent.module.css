@@ -1,14 +1,25 @@
 .mainContent {
     position: relative;
     z-index: 10;
-    margin-top: -40px;
-    background-image: url("https://cdn.builder.io/api/v1/image/assets/TEMP/b339543a9142dee91dd2230c7788b0a6d2b62dba90c1256cdecc55cdd808cf04?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca");
+    margin-top: 20px;
+    /* background-image: url("https://s3-alpha-sig.figma.com/img/047b/1ff6/b942cc95041f69a84cbd27c52d7c0bc7?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GoggCSYVjIbCtkRwbczsg5D2nHuXVuEkClSoa7jA0fvh3XSpGyR1QtBYTk8S-uaX43fKeQ99gszhQcNrlOky9DUZvHM2C0b98oiGd96PiAoiVJyo13qiVXd~s1MlZiOgxvLPdyJirPMSwowByilZp2gWE0NP2gpAfvVoyD5SCd4u5C2DGvaJaMFMVUk8L~auewvtyEP7gALz0wGY9DdbYeRQY8CP8X~o7sAgu3VmZYxeuWa13uxLfY67jjOgUxN7aEXYQWm5VDjLGNnDnKrkVR~n6jVroFRhqA1PTXmHiFvOfEA0GB02DxDGnGff8k15twoXFowEU6KDQa~ukfp5cQ__"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image{
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: right;
   }
   
   .contentWrapper {
     display: flex;
     gap: 20px;
     justify-content: space-around;
+    margin-top: -40px;
   }
   
   .descriptionSection {
@@ -19,7 +30,7 @@
     color: rgba(36, 35, 49, 1);
     text-align: center;
     align-self: end;
-    width: 905px;
+    width: 820px;
     font: 400 25px/39px Nunito, -apple-system, Roboto, Helvetica, sans-serif;
     margin-left: 264px;
     /* margin-bottom: 150px; */
@@ -37,7 +48,7 @@
     object-position: center;
     width: 35%;
     border-radius: 0;
-    margin-top: 90px;
+    margin-top: 40px;
     margin-right: 10px;
     flex-grow: 1;
   }

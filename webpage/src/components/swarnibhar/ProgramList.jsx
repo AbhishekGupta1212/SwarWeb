@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./ProgramList.module.css";
+// import CampusFounders from "./CampusFounders/CampusFounders";
 
 const programs = [
   { title: "Summitup 2024", buttonText: "RSVP Now", color: "purple" },
@@ -10,14 +11,20 @@ const programs = [
 ];
 
 function ProgramList() {
+//   let componentRender;
+//   const handleClick=()=>{
+// window.location.href='./CampusFounders/CampusFounders'
+//     console.log("handleClick")
+//   }
   return (
     <ul className={styles.programList}>
       {programs.map((program, index) => (
         <li key={index} className={`${styles.programItem} ${styles[program.color]}`}>
           <span className={styles.programTitle}>{program.title}</span>
-          <button className={styles.programButton}>{program.buttonText}</button>
+          <button className={styles.programButton} >{program.buttonText}</button>
         </li>
       ))}
+      {/* {componentRender} */}
     </ul>
   );
 }

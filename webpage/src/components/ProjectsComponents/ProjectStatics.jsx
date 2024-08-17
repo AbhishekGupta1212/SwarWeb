@@ -5,9 +5,9 @@ const ProjectStatistics = () => {
   return (
     <section className={styles.container}>
       <div className={styles.highlight}>Did you know?</div>
-      <div className={styles.statistic}>22% increase</div>
+      <div className={styles.statistic}>37% increase</div>
       <p className={styles.description}>
-        In developer productivity after three years with swanirbhar
+        In members productivity after 6 months with swanirbhar
       </p>
       <div className={styles.imageWrapper}>
         <img 
