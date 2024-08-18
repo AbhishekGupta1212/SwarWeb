@@ -1,5 +1,6 @@
-import React from "react";
+import React,{useState} from "react";
 import styles from "./ProgramList.module.css";
+import { ProgramPageComponent } from "../ProgramPageComponents/ProgramPageComponent";
 // import CampusFounders from "./CampusFounders/CampusFounders";
 
 const programs = [
@@ -11,20 +12,20 @@ const programs = [
 ];
 
 function ProgramList() {
+  const [showComponent, setShowComponent] = useState(false);
 //   let componentRender;
-//   const handleClick=()=>{
-// window.location.href='./CampusFounders/CampusFounders'
-//     console.log("handleClick")
-//   }
+  const handleClick=()=>{
+setShowComponent(true);
+  }
   return (
     <ul className={styles.programList}>
       {programs.map((program, index) => (
         <li key={index} className={`${styles.programItem} ${styles[program.color]}`}>
           <span className={styles.programTitle}>{program.title}</span>
-          <button className={styles.programButton} >{program.buttonText}</button>
+          <button className={styles.programButton} onClick={handleClick}>{program.buttonText}</button>
         </li>
       ))}
-      {/* {componentRender} */}
+      {showComponent && <ProgramPageComponent/>}
     </ul>
   );
 }

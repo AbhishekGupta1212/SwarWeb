@@ -16,7 +16,7 @@ function Main() {
     <div className={styles.mainContainer}>
       {/* <Header /> */}
       <MainContent />
-      <Supporter />
+      {/* <Supporter /> */}
       <VisionComponent/>
       <TemplateSection/>
       <TemplateList/>

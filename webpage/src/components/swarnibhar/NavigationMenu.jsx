@@ -44,7 +44,6 @@ function NavigationMenu() {
       {activeItem === 'blogArticleProject' && (
         <>
           <BlogHeader />
-          {/* <BlogPage /> */}
         </>
       )}
       {activeItem === 'forum' && <ForumComponent/>}

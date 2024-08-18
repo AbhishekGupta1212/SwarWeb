@@ -1,15 +1,16 @@
 .visionText {
     background-color: #fff;
-    border-radius: 50%;
-    z-index: 10;
+    border-radius: 0px 0px 50% 50%;
+    z-index: 11;
     margin-top: 12px;
     color: #000;
     white-space: nowrap;
-    padding: 28px 70px 89px;
+    /* padding: 28px 70px 89px; */
     font: 400 36px Poppins, sans-serif;
     text-align: center;
-    /* margin-bottom: -80px; */
-    /* padding: 54px 70px 9px; */
+    margin-bottom: -100px;
+    /* border: 1px solid black; */
+    padding: 50px 50px 16px;
   }
   
   @media (max-width: 991px) {

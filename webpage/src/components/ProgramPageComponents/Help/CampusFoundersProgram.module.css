@@ -40,6 +40,7 @@
 
 .cardContainer {
   margin-top: 37px;
+  display: flex;
 }
 
 @media (max-width: 991px) {
@@ -101,15 +102,6 @@
   }
 }
 
-/* .cardContent {
-    border-radius: 0 40px 0 40px;
-    background-color: #fff;
-    z-index: 10;
-    height: 178px;
-    margin-top: -15px;
-    aspect-ratio: 1;
-    padding: 122px 83px;
-  } */
 
 @media (max-width: 991px) {
   .cardContent {
@@ -118,10 +110,51 @@
 }
 
 
-.mycarousel {
-  height: 380px;
+
+
+
+/* .card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+} */
+
+.flipCardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.mycarousel li {
+.card:hover .flipCardInner {
+  transform: rotateY(180deg);
+}
+
+.flipCardFront, .flipCardBack {
+  position: absolute;
+  width: 100%;
   height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flipCardFront {
+  background-color: #fff;
+  color: black;
+}
+
+.flipCardBack {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+}
+
+.backContent {
+  position: absolute;
+  top: -95px;
+  text-align: center;
 }

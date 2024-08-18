@@ -1,6 +1,7 @@
 import React from 'react';
 import VisionCard from './VisionCard';
 import styles from './VisionSection.module.css';
+import Carousel from 'react-multi-carousel';
 
 const visions = [
   {
@@ -18,7 +19,7 @@ const visions = [
   {
     title: "Production",
     description: "Production of polished assets that are consistent with the concept's claim and your personal brand. Our team of professionals will develop a concept that is precisely tailored to your market based on the outcomes of the joint ideation.",
-    imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/f56eda7c7bc77382782c2a403e009761f2fa901e4832819182350f9fcfeedd38?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca",
+    imageSrc: "https://s3-alpha-sig.figma.com/img/eb6d/02dc/9abb2343470933388a83022fa5bf844b?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Gc42c-FapubLcXUePKo7td3Hh0Cm-yOHnGk0TCkJ4XhWcUkmAAsy~2iRjqSKZeRIiwYg0qTXKKheuXxWEdmhpcDPZsS8ut2oGBru1W~ucqXPq2h4PxTYEM~~PKsDkVTtmvY~UwfEQeHj18viYFObGcDiPxHTUlgYpc0I2StFmxou~NeU9Ug72lfhM3IXVf3axCRZBeZzFzM8fPYmBIzM2PFmfzq1C2LC-NegR7h9ohiF-sz-HA9ONGGNQyk2cSbSdoHAE6h7~rJX-I7ixrzbMnpCf2YYB0eD3tfrxwIWlPExYpnN9YME8rgDTevBAjhXzrFuOiBrPmri-DFpp~9DNg__",
     imageAlt: "Production process illustration"
   },
   {
@@ -33,11 +34,71 @@ const visions = [
 const VisionSection = () => {
   return (
     <section className={styles.featureSection}>
-      <div className={styles.featureGrid}>
-        {visions.map((vision, index) => (
-          <VisionCard key={index} {...vision} />
+      
+      <Carousel
+         additionalTransfrom={0}
+         arrows={false}
+         autoPlaySpeed={3000}
+         centerMode={false}
+         className=""
+         containerClass="container"
+         dotListClass=""
+         draggable={true}
+         focusOnSelect={false}
+         infinite={false}
+         itemClass=""
+         keyBoardControl
+         minimumTouchDrag={40}
+         pauseOnHover
+         renderArrowsWhenDisabled={false}
+         renderButtonGroupOutside={false}
+         renderDotsOutside={false}
+         responsive={{
+           desktop: {
+             breakpoint: {
+               max: 3000,
+               min: 1024
+             },
+             items: 3,
+             partialVisibilityGutter: 40
+           },
+           mobile: {
+             breakpoint: {
+               max: 464,
+               min: 0
+             },
+             items: 1,
+             partialVisibilityGutter: 30
+           },
+           tablet: {
+             breakpoint: {
+               max: 1024,
+               min: 464
+             },
+             items: 2,
+             partialVisibilityGutter: 30
+           }
+         }}
+         rewind={false}
+         rewindWithAnimation={false}
+         rtl={false}
+         shouldResetAutoplay
+         showDots={false}
+         sliderClass=""
+         slidesToSlide={2}
+         swipeable
+        >
+           {visions.map((vision, index) => (
+               <div className={styles.featureGrid} key={index}>
+          <VisionCard  {...vision} />
+           </div>
         ))}
-      </div>
+        </Carousel>
+            
+       
+      
+     
+      
     </section>
   );
 };

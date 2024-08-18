@@ -1,0 +1,13 @@
+.heading {
+    color: #000;
+    text-align: center;
+    align-self: center;
+    margin-top: 40px;
+    font: 500 40px Poppins, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .heading {
+      max-width: 100%;
+    }
+  }

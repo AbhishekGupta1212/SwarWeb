@@ -1,0 +1,152 @@
+.eligibilityCriteria {
+    margin: 83px 31px 0;
+  }
+  
+  @media (max-width: 991px) {
+    .eligibilityCriteria {
+      max-width: 100%;
+      margin: 40px 10px 0 0;
+    }
+  }
+  
+  .criteriaList {
+    gap: 20px;
+    display: flex;
+    margin-left: 135px;
+  }
+  
+  @media (max-width: 991px) {
+    .criteriaList {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  
+  .criteriaItem {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .criteriaItem {
+      width: 100%;
+      margin-top: 19px;
+    }
+  }
+  
+  .criteriaContent {
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .criteriaWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .criteriaNumber {
+    display: flex;
+    width: 154px;
+    max-width: 100%;
+    flex-direction: column;
+    color: var(--White---100, #fafafa);
+    white-space: nowrap;
+    padding: 0 2px;
+    font: 500 18px/1 Inter, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .criteriaNumber {
+      white-space: initial;
+    }
+  }
+  
+  .criteriaIcon {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    padding: -1px 0 53px 30px;
+  }
+  
+  @media (max-width: 991px) {
+    .criteriaIcon {
+      padding-left: 20px;
+      white-space: initial;
+    }
+  }
+  
+  .iconNumber {
+    stroke-width: 3px;
+    border-radius: 50%;
+    align-self: end;
+    width: 12px;
+    height: 14px;
+    padding: 16px 15px;
+    border: 3px solid #fff;
+  }
+  
+  @media (max-width: 991px) {
+    .iconNumber {
+      margin-right: -4px;
+      white-space: initial;
+    }
+  }
+  
+  .iconImage {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 44px;
+    align-self: center;
+  }
+  
+  .criteriaDescription {
+    margin-top: 32px;
+    max-width: 100%;
+    width: 212px;
+    color: var(--Black---100, #12141d);
+    font: 400 20px Poppins, sans-serif;
+  }
+  
+  .criteriaArrow {
+    aspect-ratio: 10.1;
+    object-fit: contain;
+    object-position: center;
+    width: 141px;
+    align-self: start;
+    margin-left: -157px;
+    margin-top: -18px;
+    max-width: 100%;
+  }
+  
+  @media (max-width: 991px) {
+    .criteriaArrow {
+      margin-top: 40px;
+    }
+  }
+  
+  .blue {
+    background-color: var(--Blue---100, #2b59ff);
+    fill: var(--Blue---100, #2b59ff);
+  }
+  
+  .purple {
+    background-color: #6f4be5;
+  }
+  
+  .black {
+    background-color: #12141d;
+  }
+  
+  .lightPurple {
+    background-color: #ccb2fd;
+  }
