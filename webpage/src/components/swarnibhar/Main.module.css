@@ -1,22 +1,17 @@
 .mainContainer {
     display: flex;
     flex-direction: column;
-    /* position: relative; */
     min-height: 831px;
     width: 100%;
     overflow: hidden;
     max-width: 1622px;
     padding: 0px;
-    /* background-image: url("https://cdn.builder.io/api/v1/image/assets/TEMP/b339543a9142dee91dd2230c7788b0a6d2b62dba90c1256cdecc55cdd808cf04?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca"); */
     object-fit: cover;
     object-position: center;
  
   }
   
   
-  @media (max-width: 991px) {
-    .mainContainer {
-      max-width: 100%;
-      padding-left: 20px;
-    }
+  @media only screen and (max-width: 600px) {
+    
   }

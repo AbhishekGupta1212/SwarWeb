@@ -1,6 +1,6 @@
 .statCard {
     border-radius: 15px;
-    padding: 66px 64px;
+    padding: 50px 64px;
     text-align: center;
     font-family: Poppins, sans-serif;
   }
@@ -28,8 +28,34 @@
     font-weight: 300;
   }
   
-  @media (max-width: 991px) {
+  @media only screen and (max-width: 600px){
     .statCard {
-      padding: 40px 20px;
+      border-radius: 15px;
+      padding: 66px 64px;
+      text-align: center;
+      font-family: Poppins, sans-serif;
+    }
+    
+    .statCard:nth-child(1) {
+      background-color: #c09ffb;
+    }
+    
+    .statCard:nth-child(2) {
+      background-color: #a4eba4;
+    }
+    
+    .statCard:nth-child(3) {
+      background-color: #fddf8e;
+    }
+    
+    .statNumber {
+      font-size: 36px;
+      font-weight: 500;
+      margin-bottom: 14px;
+    }
+    
+    .statDescription {
+      font-size: 15px;
+      font-weight: 300;
     }
   }

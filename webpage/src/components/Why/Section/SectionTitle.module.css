@@ -6,9 +6,12 @@
     font: 500 32px Poppins, sans-serif;
   }
   
-  @media (max-width: 991px) {
+  @media only screen and (max-width: 600px){
     .sectionTitle {
-      max-width: 100%;
-      margin-top: 40px;
+      color: rgba(49, 54, 67, 1);
+      text-align: center;
+      align-self: center;
+      margin-top: 45px;
+      font: 500 32px Poppins, sans-serif;
     }
   }

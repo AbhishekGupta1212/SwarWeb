@@ -94,13 +94,105 @@
     cursor: pointer;
   }
   
-  @media (max-width: 991px) {
+  @media only screen and (max-width: 600px){
     .blogPost {
-      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      max-width: 902px;
+      margin-bottom: 24px;
     }
     
-    .postTitle,
+    .authorInfo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 15px;
+    }
+    
+    .authorAvatar {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    
+    .authorName {
+      color: #292929;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+    }
+    
+    .postDate {
+      color: #757575;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+    }
+    
+    .postTitle {
+      color: #191919;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      margin-bottom: 15px;
+    }
+    
     .postContent {
-      max-width: 100%;
+      color: #292929;
+      font-family: 'DM Sans', -apple-system, Roboto, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 24px;
+      margin-bottom: 21px;
+      /* display: inline; */
+      text-align: justify;
+    }
+    
+    .postImage {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      margin-bottom: 21px;
+      float :right;
+
+
+    }
+    
+    .postFooter {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 697px;
+    }
+    
+    .postStats {
+      display: flex;
+      gap: 15px;
+      color: #757575;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+    }
+    
+    .readMore {
+      color: #000;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    
+    .interactionIcons {
+      display: flex;
+      gap: 20px;
+    }
+    
+    .icon {
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
     }
   }

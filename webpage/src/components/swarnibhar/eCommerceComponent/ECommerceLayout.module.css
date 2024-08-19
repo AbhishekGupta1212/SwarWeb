@@ -15,17 +15,21 @@
     gap: 20px;
   }
   
-  @media (max-width: 991px) {
+  @media only screen and (max-width: 600px){
     .eCommerceLayout {
-      max-width: 100%;
-      margin-top: 40px;
-      padding: 0 20px;
-    }
-  
-    .productGrid {
-      margin-top: 40px;
+      background-color: #fff;
+      display: flex;
+      width: 100%;
       flex-direction: column;
-      align-items: stretch;
-      gap: 0;
+      overflow: hidden;
+      margin-left:0px;
+    }
+    
+    .productGrid {
+      margin-top: 50px;
+      width: 630px;
+      max-width: 100%;
+      display: flex;
+      gap: 20px;
     }
   }

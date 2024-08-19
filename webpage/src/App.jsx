@@ -8,9 +8,9 @@ const App = () => {
   return (
     <div className={styles.app}>
       
-{/* <Main/> */}
+<Main/>
 
- <ProgramPageComponent/>
+ {/* <ProgramPageComponent/> */}
     </div>
   );
 };

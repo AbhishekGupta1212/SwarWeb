@@ -1,17 +1,14 @@
 
 .div{
     background-color: rgba(255, 247, 227, 1); 
-    margin: 50px 23px 0 0;
-    padding: 50px 80px 15px 30px;
+    margin: 50px 23px 0 16px;
+    padding: 50px 80px 13px 80px;
     border-radius: 30px;
 }
 .earnSection {
  
     background-color: rgba(255, 247, 227, 1);
     display: flex;
-    /* flex-direction: column; */
- 
-    
   }
   
   .content {
@@ -78,14 +75,81 @@
     background-color: rgba(192, 159, 251, 1);
   }
   
-  @media (max-width: 991px) {
-    .earnSection {
-      max-width: 100%;
-      margin: 40px 10px 0 0;
-      padding: 0 20px;
-    }
-  
-    .imageWrapper {
-      margin-top: 40px;
-    }
+  @media only screen and (max-width: 600px){
+    
+.div{
+  background-color: rgba(255, 247, 227, 1); 
+  margin: 50px 23px 0 0;
+  padding: 50px 80px 15px 30px;
+  border-radius: 30px;
+}
+.earnSection {
+
+  background-color: rgba(255, 247, 227, 1);
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  color: rgba(2, 8, 23, 1);
+  font: 400 24px Poppins, sans-serif;
+}
+
+.title {
+  color: rgba(182, 141, 28, 1);
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.highlight {
+  color: rgba(0, 0, 0, 1);
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.link {
+  color: rgba(81, 105, 246, 1);
+}
+
+.imageWrapper {
+  margin-top: 20px;
+}
+
+.image {
+  aspect-ratio: 2.03;
+  object-fit: contain;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.jobCategories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 19px;
+}
+
+.jobCategory {
+  border-radius: 17px;
+  padding: 5px 15px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  font: 400 16px Poppins, sans-serif;
+}
+
+.jobCategory:nth-child(1),
+.jobCategory:nth-child(2) {
+  background-color: rgba(141, 229, 141, 1);
+}
+
+.jobCategory:nth-child(3) {
+  background-color: rgba(253, 223, 142, 1);
+}
+
+.jobCategory:nth-child(4),
+.jobCategory:nth-child(5) {
+  background-color: rgba(192, 159, 251, 1);
+}
   }

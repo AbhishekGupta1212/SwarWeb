@@ -14,10 +14,8 @@ import Footer from "./Footer";
 function Main() {
   return (
     <div className={styles.mainContainer}>
-      {/* <Header /> */}
       <MainContent />
-      {/* <Supporter /> */}
-      <VisionComponent/>
+    <VisionComponent/>
       <TemplateSection/>
       <TemplateList/>
       <NavigationMenu/>

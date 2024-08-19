@@ -1,13 +1,14 @@
 .eventCard {
     background-color: #fff;
-    border-radius: 25px 25px 0 0;
+    border-radius: 25px;
     overflow: hidden;
+    width: 90%;
   }
   
   .eventImage {
-    width: 100%;
+    width: 90%;
     height: auto;
-    object-fit: cover;
+   margin: 15px;
   }
   
   .eventDetails {
@@ -28,4 +29,37 @@
     font-weight: 600;
     font-family: Poppins, sans-serif;
     color: #000;
+  }
+  @media only screen and (max-width: 600px){
+    .eventCard {
+      background-color: #fff;
+      border-radius: 25px 25px 0 0;
+      overflow: hidden;
+    }
+    
+    .eventImage {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    
+    .eventDetails {
+      padding: 20px;
+    }
+    
+    .eventDate {
+      display: inline-block;
+      background-color: #fee7aa;
+      border-radius: 14px;
+      font-size: 12px;
+      padding: 5px 6px;
+      margin-bottom: 9px;
+    }
+    
+    .eventTitle {
+      font-size: 16px;
+      font-weight: 600;
+      font-family: Poppins, sans-serif;
+      color: #000;
+    }
   }

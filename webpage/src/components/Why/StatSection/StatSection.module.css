@@ -11,14 +11,18 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
-  
-  @media (max-width: 991px) {
+  @media only screen and (max-width: 600px){
     .statsSection {
-      margin-top: -200px;
-      padding: 40px 20px;
+      background-color: #101114;
+      padding: 56px 64px;
+      border-radius: 25px;
+      margin-top: -87px;
+      z-index: 10;
     }
-  
+    
     .statsGrid {
-      grid-template-columns: 1fr;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
     }
   }

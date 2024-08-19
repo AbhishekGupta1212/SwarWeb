@@ -7,14 +7,7 @@
     flex-direction: column;
     overflow: hidden;
     align-items: start;
-    padding: 76px 80px;
-  }
-  
-  @media (max-width: 991px) {
-    .articleSection {
-      margin-top: 40px;
-      padding: 0 20px;
-    }
+    padding: 76px 0px;
   }
   
   .navigationBar {
@@ -32,12 +25,6 @@
     font: 600 16px Poppins, sans-serif;
   }
   
-  @media (max-width: 991px) {
-    .navigationBar {
-      padding: 0 20px;
-    }
-  }
-  
   .navItem {
     align-self: stretch;
     margin: auto 0;
@@ -49,12 +36,6 @@
     align-self: stretch;
     color: #fff;
     padding: 20px 25px;
-  }
-  
-  @media (max-width: 991px) {
-    .activeNavItem {
-      padding: 0 20px;
-    }
   }
   
   .filterTabs {
@@ -72,13 +53,6 @@
     padding: 12px 25px;
     border: 1px solid #5169f6;
   }
-  
-  @media (max-width: 991px) {
-    .filterTab {
-      padding: 0 20px;
-    }
-  }
-  
   .activeFilterTab {
     border-radius: 10px;
     background-color: #5169f6;
@@ -86,12 +60,6 @@
     white-space: nowrap;
     padding: 12px 20px;
     border: 1px solid #5169f6;
-  }
-  
-  @media (max-width: 991px) {
-    .activeFilterTab {
-      white-space: initial;
-    }
   }
   
   .articleGrid {
@@ -105,14 +73,6 @@
     display: flex;
   }
   
-  @media (max-width: 991px) {
-    .articleRow {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0px;
-    }
-  }
-  
   .articleCard {
     background-color: #fff;
     display: flex;
@@ -123,13 +83,6 @@
     margin: 0 auto;
     font: 400 16px DM Sans, sans-serif;
     border: 1px solid #8f9bba;
-  }
-  
-  @media (max-width: 991px) {
-    .articleCard {
-      margin-top: 40px;
-      padding-bottom: 100px;
-    }
   }
   
   .articleImage {
@@ -168,13 +121,6 @@
     text-align: center;
     margin: 13px 0 0 15px;
   }
-  
-  @media (max-width: 991px) {
-    .authorInfo {
-      margin-left: 10px;
-    }
-  }
-  
   .authorAvatar {
     aspect-ratio: 1;
     object-fit: contain;
@@ -204,4 +150,105 @@
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
+  }
+
+  @media only screen and (max-width: 600px){
+    .articleSection {
+      background-color: #fff;
+      display: flex;
+      margin-top: 5px;
+      width: 100%;
+      flex-direction: column;
+      overflow: hidden;
+      align-items: start;
+      padding: 0px;
+    }
+  
+    
+    .articleGrid {
+      margin-top: 25px;
+      width: 100%;
+      /* max-width: 1015px; */
+    }
+    
+    .articleRow {
+      gap: 8px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .articleCard {
+      background-color: #fff;
+      display: flex;
+      width: 80%;
+      padding-bottom: 0px;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px auto;
+      font: 400 16px DM Sans, sans-serif;
+      border: 1px solid #8f9bba;
+    }
+    
+    .articleImage {
+    
+      width: 100%;
+      align-self: stretch;
+    }
+    
+    .articleTitle {
+      color: #000;
+      font-weight: 500;
+      font-size: 15px;
+      margin-top: 10px;
+      text-align: center;
+    }
+    
+    .articleDescription {
+      color: #686868;
+      text-align: center;
+      margin-top: 2px;
+      width: 265px;
+    }
+    
+    .readMore {
+      color: #a3aed0;
+      margin-top: 10px;
+      font: 14px Inter, sans-serif;
+    }
+    
+    .authorInfo {
+      display: flex;
+      gap: 16px;
+      color: #b3b3b3;
+      text-align:left;
+      margin: 0px;
+    }
+    .authorAvatar {
+  
+      width: 40px;
+      border-radius: 50%;
+      margin: auto 0;
+    }
+    
+    .authorDetails {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .publishDate {
+      align-self: start;
+      margin-top: -5px;
+    }
+    
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
   }

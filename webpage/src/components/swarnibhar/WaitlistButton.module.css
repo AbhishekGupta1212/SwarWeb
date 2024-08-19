@@ -6,10 +6,10 @@
     padding-left: 25px;
     gap: 10px;
     color: rgba(25, 29, 32, 1);
-    width: 33%;
+    width: 34%;
     font: 700 18px Nunito, sans-serif;
     justify-content: center;
-    margin-left: 550px;
+    margin-left: 472px;
   }
   
   .buttonText {
@@ -23,10 +23,33 @@
     object-position: center;
     width: 56px;
     border-radius: 50%;
+    margin-left: 5px;
+    border: 1px solid black;
   }
   
-  @media (max-width: 991px) {
+  @media only screen and (max-width: 600px) {
     .waitlistButton {
-      margin-top: 40px;
+      border-radius: 30px;
+      background-color: rgba(255, 255, 255, 0.86);
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      display: flex;
+      padding-left: 13px;
+      gap: 10px;
+      color: rgba(25, 29, 32, 1);
+      width: 60%;
+      font: 400 10px Nunito, sans-serif;
+      justify-content: center;
+      margin-left: 134px;
+    }
+    
+    .buttonText {
+      margin: auto 0;
+    }
+    
+    .buttonIcon {
+      width: 22px;
+      border-radius: 50%;
+      margin-left: -11px;
+      border: 1px solid black;
     }
   }

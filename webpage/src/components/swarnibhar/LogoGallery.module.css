@@ -6,20 +6,14 @@
   z-index: 10;
   display: flex;
   margin-top: -10px;
-  width: 1216px;
-  max-width: 100%;
+  width: 1128px;
+  /* max-width: 100%; */
   gap: 20px;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 38px 48px;
-  margin-left: 107px;
-  /* margin-top: 10px; */
-}
-
-@media (max-width: 991px) {
-  .logoGallery {
-    padding: 0 20px;
-  }
+  padding: 28px 16px;
+  margin-left: 16px;
+  margin-top: 22px
 }
 
 .logo {
@@ -34,3 +28,34 @@
 .logo4 { width: 143px; aspect-ratio: 2.86; }
 .logo5 { width: 144px; aspect-ratio: 2.88; }
 .logo6 { width: 148px; aspect-ratio: 2.96; }
+
+@media only screen and (max-width: 600px){
+
+  .logoGallery {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.81);
+    box-shadow: 0 7px 4px rgba(0, 0, 0, 0.25);
+    align-self: center;
+    z-index: 10;
+    display: flex;
+    margin-top: 26px;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 3px 4px;
+    margin-left: 0px;
+  }
+  .logo {
+    object-fit: contain;
+    object-position: center;
+    max-width: 100%;
+  }
+  
+  .logo1 { width: 30px; aspect-ratio: 2; }
+  .logo2 { width: 30px; aspect-ratio: 2; }
+  .logo3 { width: 30px; aspect-ratio:2; }
+  .logo4 { width: 30px; aspect-ratio: 2; }
+  .logo5 { width: 30px; aspect-ratio: 2; }
+  .logo6 { width: 30px; aspect-ratio: 2; }
+}
+

@@ -1,7 +1,7 @@
 .networkSection {
     border-radius: 30px;
     background-color: rgba(245, 241, 253, 1);
-    margin: 70px 23px 0 0;
+    margin: 70px 23px 0 16px;
     padding: 0 28px;
     display: flex;
   }
@@ -52,23 +52,59 @@
     margin-top: -129px;
     margin-right: -44px;
   }
-  
-  @media (max-width: 991px) {
+  @media only screen and (max-width: 600px){
     .networkSection {
-      max-width: 100%;
-      margin: 40px 10px 0 0;
-      padding: 0 20px;
-      flex-direction: column;
+      border-radius: 30px;
+      background-color: rgba(245, 241, 253, 1);
+      margin: 70px 23px 0 16px;
+      padding: 0 28px;
+      display: flex;
     }
-  
+    
     .content {
-      width: 100%;
-      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      color: rgba(2, 8, 23, 1);
+      font: 400 24px Poppins, sans-serif;
+      width: 54%;
     }
-  
+    
+    .title {
+      color: rgba(0, 0, 0, 1);
+      font-size: 32px;
+      font-weight: 500;
+    }
+    
+    .highlight {
+      color: rgba(81, 105, 246, 1);
+    }
+    
+    .description {
+      margin-top: 20px;
+    }
+    
     .imageWrapper {
+      position: relative;
+     height: 54px;
+      width: 46%;
+      padding: 318px 80px 17px;
+    }
+    
+    .backgroundImage {
+      position: absolute;
+      inset: 0;
+      height: 100%;
       width: 100%;
-      margin-top: 13px;
-      padding: 100px 20px 0;
+      object-fit: cover;
+    }
+    
+    .profileImage {
+      width: 201px;
+      border-radius: 92px;
+      position: relative;
+      z-index: 1;
+      float: inline-end;
+      margin-top: -129px;
+      margin-right: -44px;
     }
   }
