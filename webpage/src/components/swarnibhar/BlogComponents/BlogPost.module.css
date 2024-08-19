@@ -144,11 +144,10 @@
       color: #292929;
       font-family: 'DM Sans', -apple-system, Roboto, Helvetica, sans-serif;
       font-weight: 400;
-      font-size: 12px;
+      font-size: 10px;
       line-height: 24px;
       margin-bottom: 21px;
-      /* display: inline; */
-      text-align: justify;
+
     }
     
     .postImage {

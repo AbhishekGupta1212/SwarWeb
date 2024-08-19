@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './ProjectCard.module.css';
 
-const ProjectCard = ({ difficulty, duration, title, skills, completions, imageUrl }) => {
+const ProjectCard = ({ difficulty, duration, title, skills, completions }) => {
   return (
     <article className={styles.projectCard}>
       <header className={styles.cardHeader}>
@@ -20,7 +20,6 @@ const ProjectCard = ({ difficulty, duration, title, skills, completions, imageUr
           ))}
         </div>
       </section>
-      <img src={imageUrl} alt="" className={styles.projectImage} />
       <footer className={styles.cardFooter}>
         <span className={styles.completions}>{completions} completions</span>
       </footer>

@@ -19,20 +19,9 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-  
   .filterButton:hover,
   .filterButton:focus {
     background-color: #f0f0f0;
-  }
-  
-  @media (max-width: 991px) {
-    .filterContainer {
-      white-space: initial;
-    }
-  
-    .filterButton {
-      white-space: initial;
-    }
   }
   .heading {
     color: rgba(49, 54, 67, 1);
@@ -41,9 +30,40 @@
     margin-top: 40px;
     font: 500 32px Poppins, sans-serif;
   }
-  
-  @media (max-width: 991px) {
-    .heading {
-      max-width: 100%;
+
+  @media only screen and (max-width: 600px){
+    .filterContainer {
+      align-self: center;
+      display: flex;
+      margin-top: 18px;
+      margin-left: 8px;
+      width: 100%;
+      gap: 10px;
+      color: #000;
+      flex-wrap: wrap;
+      font: 400 13px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+
     }
-}
+    
+    .filterButton {
+      border-radius:  24px;
+      background-color: #fcfcfc;
+      padding: 9px;
+      border: 1px solid #d9d9d9;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-size: 12px;
+    }
+    .filterButton:hover,
+    .filterButton:focus {
+      background-color: #f0f0f0;
+    }
+    .heading {
+      color: rgba(49, 54, 67, 1);
+      text-align: center;
+      align-self: center;
+      margin-top: 20px;
+      font: 400 15px Poppins, sans-serif;
+    }
+  }
+  

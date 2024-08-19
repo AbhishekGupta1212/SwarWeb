@@ -76,29 +76,33 @@
   }
   
   @media only screen and (max-width: 600px){
-    
 .div{
   background-color: rgba(255, 247, 227, 1); 
-  margin: 50px 23px 0 0;
-  padding: 50px 80px 15px 30px;
-  border-radius: 30px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 25px;
+  height: 140px;
+  width:92.5%
 }
 .earnSection {
-
   background-color: rgba(255, 247, 227, 1);
   display: flex;
+  border-radius: 25px;
+  width:92.5%;
+  padding:5px;
+  height: 150px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   color: rgba(2, 8, 23, 1);
-  font: 400 24px Poppins, sans-serif;
+  font: 400 Poppins, sans-serif;
 }
 
 .title {
   color: rgba(182, 141, 28, 1);
-  font-size: 32px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -107,7 +111,9 @@
 }
 
 .description {
-  margin-top: 20px;
+  margin-top: 0px;
+  font-size: 10px;
+  margin-bottom: 5px;
 }
 
 .link {
@@ -115,28 +121,29 @@
 }
 
 .imageWrapper {
-  margin-top: 20px;
+  margin: 20px -71px 0px 1px;
+  width:190%;
 }
 
 .image {
   aspect-ratio: 2.03;
   object-fit: contain;
-  width: 100%;
+  width: 75%;
   border-radius: 25px;
 }
 
 .jobCategories {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 19px;
+  gap: 2px;
+  margin: -16px 49px;
 }
 
 .jobCategory {
   border-radius: 17px;
-  padding: 5px 15px;
+  padding:0px;
   border: 1px solid rgba(0, 0, 0, 1);
-  font: 400 16px Poppins, sans-serif;
+  font: 400 8px Poppins, sans-serif;
 }
 
 .jobCategory:nth-child(1),

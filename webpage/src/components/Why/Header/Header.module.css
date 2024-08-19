@@ -1,10 +1,4 @@
-/* .header {
-    display: flex;
-    margin-top: 30px;
-    width: 100%;
-    flex-direction: column;
-    padding: 0 80px;
-  } */
+
   
   .logoContainer {
     border-radius: 20px;
@@ -19,7 +13,6 @@
     gap: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* padding: 38px 48px; */
     margin-left: 100px;
   }
   
@@ -30,30 +23,57 @@
   .logo4 { width: 143px; aspect-ratio: 2.86; }
   .logo5 { width: 144px; aspect-ratio: 2.88; }
   .logo6 { width: 148px; aspect-ratio: 2.96; }
-  .logo7 { width: 100px; aspect-ratio: 2.5; }
-  .logo8 { width: 100px; aspect-ratio: 2.5; }
-  .logo9 { width: 100px; aspect-ratio: 2.5; }
-  /* .logo10 { width: 70px; aspect-ratio: 2.5; } */
-  .logo11{ width: 70px; aspect-ratio: 2.5; }
-  .logo12 { width: 100px; aspect-ratio: 2.5; }
-  .logo13 { width: 100px; aspect-ratio: 2.5; }
-  .logo14 { width: 100px; aspect-ratio: 2.5; }
+  .logo7 { width: 100px; aspect-ratio: 1.25; }
+  .logo8 { width: 100px; aspect-ratio: 1.25; }
+  .logo9 { width: 100px; aspect-ratio: 1.25; }
+  .logo11{ width: 70px; aspect-ratio: 1.25; }
+  .logo12 { width: 100px; aspect-ratio: 1.25; }
+  .logo13 { width: 100px; aspect-ratio: 1.25; }
+  .logo14 { width: 100px; aspect-ratio: 1.25; }
 
   .logoWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* margin: auto; */
+ 
   }
-
-  @media (max-width: 991px) {
-    .header {
-      max-width: 100%;
-      padding: 0 20px;
-    }
+  @media only screen and (max-width: 600px){
+  .logoContainer {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 255);
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+    align-self: center;
+    z-index: 10;
+    display: flex;
+    margin-top: 14px;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -3px;
+  }
   
-    .logoContainer {
-      padding: 0 20px;
-    }
+
+  .logo1 { width: 75px; aspect-ratio: 1.8; }
+  .logo2 { width: 25px; aspect-ratio: 0.5; }
+  .logo3 { width: 44px; aspect-ratio: 0.88; }
+  .logo4 { width: 72px; aspect-ratio: 1.43; }
+  .logo5 { width: 72px; aspect-ratio: 1.44; }
+  .logo6 { width: 74px; aspect-ratio: 1.48; }
+  .logo7 { width: 50px; aspect-ratio: 1.25; }
+  .logo8 { width: 50px; aspect-ratio: 1.25; }
+  .logo9 { width: 50px; aspect-ratio: 1.25; }
+  .logo11{ width: 35px; aspect-ratio: 1.25; }
+  .logo12 { width: 50px; aspect-ratio: 1.25; }
+  .logo13 { width: 50px; aspect-ratio: 1.25; }
+  .logo14 { width: 50px; aspect-ratio: 1.25; }
+
+  .logoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ 
+  }
   }

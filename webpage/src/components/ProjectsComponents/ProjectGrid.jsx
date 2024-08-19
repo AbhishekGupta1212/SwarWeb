@@ -33,31 +33,28 @@ const projectData = [
     title: "Getting started with design, Making a Portfolio",
     skills: ["Graphic Design", "UI/UX", "Design thinking"],
     completions: 156,
-    imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/545d7acbfa693c006869f622232ebed96b2571b53865e3dd30191f1f571f4b26?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca"
-  },
+      },
   {
     difficulty: "Easy",
     duration: "3 hours",
     title: "Craft compelling cold emails for influencers for Bombay Shaving Company",
     skills: ["Social Media Management", "Influencer Marketing", "Email Marketing"],
     completions: 76,
-    imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/545d7acbfa693c006869f622232ebed96b2571b53865e3dd30191f1f571f4b26?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca"
-  },
+      },
   {
     difficulty: "Easy",
     duration: "4 hours",
     title: "Write and visualize content for 3 social media posts for an edtech startup",
     skills: ["Communicative English", "Social Media Marketing", "Content Marketing"],
     completions: 61,
-    imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/545d7acbfa693c006869f622232ebed96b2571b53865e3dd30191f1f571f4b26?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca"
-  },
+      },
   {
     difficulty: 'Medium',
     duration: '7 hours',
     title: 'Create a Shopping Cart using React',
     skills: ['React JS', 'Javascript', 'Software Architecture'],
     completions: '50 completions',
-    progressBarSrc: 'https://cdn.builder.io/api/v1/image/assets/TEMP/14782773e86a3677b6eb8ab10395fa20199dd9f1b8e43035de6e5fc1cc830185?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca'
+  
   },
   {
     difficulty: 'Easy',
@@ -65,7 +62,7 @@ const projectData = [
     title: 'Create user personas for Zerodha',
     skills: ['Business Strategy', 'Product Management', 'User Research'],
     completions: '48 completions',
-    progressBarSrc: 'https://cdn.builder.io/api/v1/image/assets/TEMP/14782773e86a3677b6eb8ab10395fa20199dd9f1b8e43035de6e5fc1cc830185?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca'
+  
   },
   {
     difficulty: 'Medium',
@@ -73,7 +70,6 @@ const projectData = [
     title: 'Create a Web Scraper that Scrapes Good Restaurants from Any Food Delivery Website Using Python',
     skills: ['HTML', 'Python', 'Web Scraping'],
     completions: '42 completions',
-    progressBarSrc: 'https://cdn.builder.io/api/v1/image/assets/TEMP/545d7acbfa693c006869f622232ebed96b2571b53865e3dd30191f1f571f4b26?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca'
   }
 ];
 

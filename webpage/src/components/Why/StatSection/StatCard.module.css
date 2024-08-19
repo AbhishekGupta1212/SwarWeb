@@ -30,9 +30,12 @@
   
   @media only screen and (max-width: 600px){
     .statCard {
-      border-radius: 15px;
-      padding: 66px 64px;
+      border-radius: 19px;
       text-align: center;
+      width: 30%;
+      height: 81px;
+      padding: 2px;
+      margin-left: 0px;
       font-family: Poppins, sans-serif;
     }
     
@@ -49,13 +52,13 @@
     }
     
     .statNumber {
-      font-size: 36px;
+      font-size: 10px;
       font-weight: 500;
       margin-bottom: 14px;
     }
     
     .statDescription {
-      font-size: 15px;
+      font-size: 10px;
       font-weight: 300;
     }
   }

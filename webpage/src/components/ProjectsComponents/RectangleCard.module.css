@@ -37,13 +37,12 @@
       border-radius: 25px;
       background-color: #fff;
       display: flex;
-      flex-grow: 1;
       flex-direction: column;
       align-items: center;
       text-align: center;
-      width: 100%;
-      padding: 28px; 
-      font: 16px/28px Poppins, sans-serif;
+      width: 90%;
+      padding: 2px; 
+      font: 10px Poppins, sans-serif;
       border: 1px solid #d9d9d9;
     }
     
@@ -52,19 +51,19 @@
       aspect-ratio: 1;
       object-fit: contain;
       object-position: center;
-      width: 60px;
+      width: 30px;
     }
     
     .title {
       color: #000;
       font-weight: 700;
-      margin-top: 30px;
+      margin-top: 5px;
     }
     
     .description {
       color: #61636b;
       font-weight: 500;
       align-self: stretch;
-      margin-top: 15px;
+      margin-top: 5px;
     }
   }

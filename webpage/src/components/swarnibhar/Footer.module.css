@@ -1,14 +1,419 @@
-.image {
-    aspect-ratio: 2.17;
-    object-fit: contain;
-    object-position: center;
-    width: 100%;
-    margin-top: 71px;
+.footer {
+  border-radius: 0;
+  display: flex;
+  padding-top: 74px;
+  flex-direction: column;
+}
+
+.footerContent {
+  background: var(--Natural-Black, #212121);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 0px;
+}
+
+
+.mainSection {
+  z-index: 10;
+  margin-top: -24px;
+  padding: 40px;
+}
+
+
+.contentWrapper {
+  gap: 20px;
+  display: flex;
+}
+
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 63%;
+  margin-left: 0;
+}
+
+
+.heroText {
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font: 400 28px Poppins, sans-serif;
+}
+
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 30%;
+  margin-left: 8px;
+
+}
+
+.credibilityCard {
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top: -55px;
+  align-items: center;
+  padding: 22px 36px;
+  border: 8px solid #212121;
+}
+
+.cardTitle {
+  color: #000;
+  text-align: center;
+  font: 600 16px Nunito, sans-serif;
+}
+
+.logoContainer {
+  align-self: stretch;
+  display: flex;
+  margin-top: 14px;
+  gap: 14px;
+}
+
+.logo {
+  object-fit: contain;
+  object-position: center;
+  max-width: 100%;
+}
+
+.logo1 {
+  aspect-ratio: 3.62;
+  width: 127px;
+}
+
+.logo2 {
+  aspect-ratio: 3.77;
+  width: 132px;
+}
+
+.logo3 {
+  aspect-ratio: 2.17;
+  width: 76px;
+}
+
+.socialIcons {
+  display: flex;
+  margin-top: 20px;
+  width: 133px;
+  max-width: 100%;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.socialIcon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 42px;
+}
+
+.footerLinks {
+  display: flex;
+  margin-top: 14px;
+  width: 400px;
+  
+  gap: 20px;
+  color: #fff;
+  justify-content: space-around;
+  font: 500 13px Poppins, sans-serif;
+}
+
+
+.linkColumn {
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+}
+
+.linkHeader {
+  font-weight: 700;
+  margin-bottom: 1px;
+}
+
+.link {
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.link:first-child {
+  margin-top: 15px;
+}
+
+.copyright {
+  align-self: center;
+    display: flex;
+    margin-top: 115px;
+    width: 80%;
+    align-items: center;
+    gap: 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    border: 1px solid white;
+    color: #737372;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -0.14px;
+    line-height: 25px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.copyrightText {
+  font-family: Poppins, sans-serif;
+  align-self: stretch;
+}
+
+.legalLinks {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-family: Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+
+  justify-content: center;
+}
+
+.legalLink {
+  align-self: stretch;
+  margin: auto 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.highlight {
+  color: #6943ff;
+}
+
+.credibilityHighlight {
+  color: #1e94f9;
+}
+
+@media only screen and (max-width: 600px){
+  .footer {
+    border-radius: 0;
+    display: flex;
+    padding-top: 25px;
+    flex-direction: column;
   }
   
-  @media (max-width: 991px) {
-    .image {
-      max-width: 100%;
-      margin-top: 40px;
-    }
+  .footerContent {
+    background: var(--Natural-Black, #212121);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding:0px;
   }
+  
+  
+  .mainSection {
+    z-index: 10;
+    margin: -23px;
+  }
+  
+  
+  .contentWrapper {
+    gap: 20px;
+    display: flex;
+  }
+  
+  
+  .leftColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 68%;
+    margin-left: 0;
+  }
+  
+  
+  .heroText {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0px;
+    font: 400 16px Poppins, sans-serif;
+  }
+  
+  
+  .rightColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left:0px;
+  }
+  
+  
+  
+  .credibilityCard {
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    margin-top:-34px;
+    padding:0px;
+    border: 8px solid #212121;
+  }
+  
+  .cardTitle {
+    color: #000;
+    text-align: center;
+    font: 600 6px Nunito, sans-serif;
+  }
+  
+  .logoContainer {
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    gap: 5px;
+  }
+  
+  .logo {
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  .logo1 {
+    aspect-ratio: 1.62;
+    width: 50px;
+  }
+  
+  .logo2 {
+    aspect-ratio: 3.77;
+    width: 54px;
+  }
+  
+  .logo3 {
+    aspect-ratio: 2.17;
+    width: 20px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    margin-top:0px;
+    width: 100%;
+    gap: 5px;
+    justify-content: space-evenly;
+  }
+  
+  .socialIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 26px;
+  }
+  
+  .footerLinks {
+    display: flex;
+    margin-top: 0px;
+    width:100%;
+        gap: 20px;
+    color: #fff;
+    justify-content: flex-start;
+    margin-left: 18px;
+    font: 500 7px Poppins, sans-serif;
+  }
+  
+  
+  .linkColumn {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .linkHeader {
+    font-weight: 700;
+  }
+  
+  .link {
+    margin-top: 5px;
+  }
+  
+  .link:first-child {
+    margin-top: 15px;
+  }
+  
+  .copyright {
+    display: flex;
+    margin-top: 54px;
+    width: 100%;
+    gap: 10px;
+    font-size: 8px;
+    color: #737372;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -0.14px;
+    line-height: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  .copyrightText {
+    font-family: Poppins, sans-serif;
+    align-self: stretch;
+    font-size: 5px;
+  }
+  
+  .legalLinks {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+    justify-content: center;
+  }
+  
+  .legalLink {
+    align-self: stretch;
+    margin-right: 16px;
+    font-size: 5px;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  
+  .highlight {
+    color: #6943ff;
+  }
+  
+  .credibilityHighlight {
+    color: #1e94f9;
+  }
+}

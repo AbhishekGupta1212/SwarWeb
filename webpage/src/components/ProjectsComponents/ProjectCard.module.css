@@ -98,45 +98,53 @@
       background-color: #fff;
       border-radius: 10px;
       border: 1px solid #e0e1e6;
-      padding: 25px 21px;
+      padding: 5px;
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: 95%;
+      gap:3px;
+      height: 145px;
     }
     
     .cardHeader {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 15px;
+      margin-bottom: 1px;
     }
     
     .badge {
-      border-radius: 3px;
-      padding: 7px 11px;
-      font-size: 9px;
-      font-weight: 600;
+      border-radius: 5px;
+      padding: 5px;
+      font-size: 8px;
+      font-weight: 400;
+      margin-top: 2px;
     }
     
     .easy {
       background-color: #d2f5d2;
       color: #73817a;
+      width: 15px;
+      margin-left: 2px;
+    
     }
     
     .medium {
       background-color:#feefc6;
       color: #8f897d;
+      width: 25px;
+      margin-left: 2px;
     }
     
     .duration {
       display: flex;
       align-items: center;
-      gap: 5px;
+      gap: 4px;
       font-size: 8px;
       color: #819387;
       background-color: #d2f5d2;
-      border-radius: 9px;
-      padding: 5px 12px;
+      border-radius: 10px;
+      margin-top: 2px;
+      padding: 5px;
+      margin-right: 2px;
     }
     
     .icon {
@@ -146,45 +154,43 @@
     
     .projectTitle {
       color: #5e6168;
-      font-size: 15px;
-      margin-bottom: 20px;
+      font-size: 8px;
+      margin-bottom: 5px;
+      margin-left: 5px;
     }
     
     .skillsSection {
-      margin-bottom: 15px;
+      margin-bottom: 0px;
     }
     
     .skillsHeading {
       color: #b3b6c1;
-      font-size: 8px;
-      margin-bottom: 7px;
+      font-size: 4px;
+      margin-bottom: 5px;
     }
     
     .skillsList {
       display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
+      gap: 2px;
     }
     
     .skill {
       background-color: #f1f1f4;
       border-radius: 12px;
-      padding: 8px 10px;
-      font-size: 8px;
+      padding: 5px;
+      font-size: 5px;
       color: #868790;
     }
     
-    .projectImage {
-      width: 100%;
-      margin-bottom: 15px;
-    }
+
     
     .cardFooter {
-      margin-top: auto;
+      margin-top: 0px;
     }
     
     .completions {
       color: #96979f;
-      font-size: 11px;
+      font-size: 5px;
+      margin-bottom: 5px;
     } 
   }

@@ -14,8 +14,11 @@
     .projectGrid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 70px;
-      padding: 20px 0;
+      width: 100%;
+      column-gap:8px;
+      row-gap: 6px;
+      padding: 4px;
+      margin-left: -5px;
     }
      
     h5{

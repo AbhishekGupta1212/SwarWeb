@@ -14,15 +14,16 @@
   @media only screen and (max-width: 600px){
     .statsSection {
       background-color: #101114;
-      padding: 56px 64px;
-      border-radius: 25px;
-      margin-top: -87px;
+      padding: 0px;
+      border-radius: 0px;
+      width: 100%;
+      margin-top:0px;
       z-index: 10;
     }
     
     .statsGrid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
+      display:flex;
+      justify-content: space-evenly;
+      padding-bottom: 5px;
     }
   }

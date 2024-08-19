@@ -89,63 +89,55 @@
   @media only screen and (max-width: 600px){
     .container {
       align-self: center;
-      margin-top: 25px;
-      width: 1320px;
-      max-width: 100%;
+      margin-top: 0px;
+      width: 100%;
+      height:140px;
+      margin-bottom: 50px;
     }
     
     .content {
       display: flex;
-      gap: 40px;
+      gap: 6px;
     }
-    
-  
-    
     .candidateColumn {
       display: flex;
       flex-direction: column;
       line-height: normal;
-      width: 70%;
-      margin-left: 0;
+      width: 114%;
+      margin-left: 0px;
     }
-    
-  
-    
     .candidateCard {
       border-radius: 32px;
       background-color: #212833;
       display: flex;
-      flex-grow: 1;
       flex-direction: column;
       color: #fffdfa;
       letter-spacing: -0.64px;
       width: 100%;
-      padding: 30px 24px;
-      font: 400 32px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+      padding: 0px;
+      font: 400 12px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
     }
-    
-  
     
     .cardTitle {
       align-self: start;
-      margin-left: 16px;
+      margin-left: 0px;
+      font-size: 18px;
     }
   
     
     .cardImage {
-      /* aspect-ratio: 2.02; */
-      /* object-fit: contain; */
       object-position: center;
-      width: 100%;
-      margin-top: 31px;
+      width: 95%;
+      margin-top: 0px;
+      border-radius: 19px;
     }
     
     .roleColumn {
       display: flex;
       flex-direction: column;
       line-height: normal;
-      width: 40%;
-      margin-left: 20px;
+      width: 59%;
+      margin-left:0px;
     }
     
   
@@ -155,10 +147,10 @@
       background-color: #f3ede6;
       flex-grow: 1;
       color: #212833;
-      letter-spacing: -1.44px;
-      width: 100%;
-      padding: 204px 32px 86px;
-      font: 400 40px/52px Georgia, -apple-system, Roboto, Helvetica, sans-serif;
+      letter-spacing: -1px;
+      width: 92%;
+      padding: 6px;
+      font: 400 24px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
     }
     
   

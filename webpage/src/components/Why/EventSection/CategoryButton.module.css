@@ -27,8 +27,8 @@
       border-radius: 42px;
       background-color: #fff;
       color: #313643;
-      font: 600 16px Poppins, sans-serif;
-      padding: 13px 20px;
+      font: 400 8px Poppins, sans-serif;
+      padding: 2px;
       border: none;
       cursor: pointer;
       transition: background-color 0.3s, color 0.3s;

@@ -4,9 +4,8 @@
   }
   
   .row {
-    /* gap: 20px; */
     display: flex;
-    width: 90%;
+    width: 87.5%;
     margin-left: 75px;
     border:14.8px solid #7465c9;
   }
@@ -64,6 +63,6 @@
       text-align: center;
       align-self: center;
       margin-top: 50px;
-      font: 500 32px Poppins, sans-serif;
+      font: 500 20px Poppins, sans-serif;
     }
   }

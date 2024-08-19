@@ -56,22 +56,23 @@
     .networkSection {
       border-radius: 30px;
       background-color: rgba(245, 241, 253, 1);
-      margin: 70px 23px 0 16px;
-      padding: 0 28px;
+      margin-top: 36px;
+      padding: 5px;
       display: flex;
+      height: 140px;
     }
     
     .content {
       display: flex;
       flex-direction: column;
       color: rgba(2, 8, 23, 1);
-      font: 400 24px Poppins, sans-serif;
+      font: 400 Poppins, sans-serif;
       width: 54%;
     }
     
     .title {
       color: rgba(0, 0, 0, 1);
-      font-size: 32px;
+      font-size: 12px;
       font-weight: 500;
     }
     
@@ -80,31 +81,32 @@
     }
     
     .description {
-      margin-top: 20px;
+      margin-top:0px;
+      font-size: 8px;
     }
     
     .imageWrapper {
       position: relative;
      height: 54px;
       width: 46%;
-      padding: 318px 80px 17px;
+      padding: 0px;
     }
     
     .backgroundImage {
       position: absolute;
       inset: 0;
-      height: 100%;
-      width: 100%;
+      height: 146px;
+      width: 95%;
       object-fit: cover;
     }
     
     .profileImage {
-      width: 201px;
+      width: 60px;
       border-radius: 92px;
       position: relative;
       z-index: 1;
       float: inline-end;
-      margin-top: -129px;
-      margin-right: -44px;
+      margin-top: 84px;
+      margin-right: 14px;
     }
   }

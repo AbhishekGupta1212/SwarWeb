@@ -67,7 +67,7 @@
     .highlight {
       border-radius: 27px;
       background-color: #fff;
-      margin-left: 15px;
+      margin-left: 0px;
       color: #5169f6;
       padding: 10px 25px;
       font: 600 20px Nunito, sans-serif;
@@ -79,14 +79,14 @@
     .statistic {
       color: #5169f6;
       margin: 10px 0 0 15px;
-      font: 600 64px Nunito, sans-serif;
+      font: 600 24px Nunito, sans-serif;
     }
     
   
     
     .description {
       color: #000;
-      margin: 49px 0 0 15px;
+      margin: 25px 0 0 15px;
       font: 600 24px Nunito, sans-serif;
     }
     

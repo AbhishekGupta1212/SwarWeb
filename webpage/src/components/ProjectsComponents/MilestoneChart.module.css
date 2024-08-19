@@ -6,12 +6,9 @@
     font-family: Inter, sans-serif;
     font-weight: 600;
     justify-content: center;
-    width: 96%;
+    width: 95%;
     padding: 15px
   }
-  
-
-  
   .content {
     display: flex;
     width: 376px;
