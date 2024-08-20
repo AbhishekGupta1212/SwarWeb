@@ -7,11 +7,14 @@
     margin-top: -102px;
     font-size: 36px;
     padding: 54px 70px 9px;
+    font-family: cursive
   }
  .templateh2{
-    margin-left: 200px;
-    width:70%;
-    text-align: center;
+  margin-left: 200px;
+  font-weight: 100;
+  width: 70%;
+  text-align: center;
+  font-size: 47px;
   }
   @media only screen and (max-width: 600px){
     .templateSection {

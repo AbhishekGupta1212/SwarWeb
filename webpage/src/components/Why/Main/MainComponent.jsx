@@ -18,13 +18,26 @@ const MainComponent = () => {
     <main className={styles.mainContainer}>
       <Header/>
       <SectionTitle>Why should you join the community? 👇🏻</SectionTitle>
-      <LearnSection />
-      <EarnSection />
+      <div data-aos="fade-down-left">
+      <LearnSection />  
+      </div>
+      <div data-aos="flip-down">
+      <EarnSection />  
+      </div>
+      
       {/* <ParallaxOverlapping/> */}
-      <NetworkSection />
+      <div data-aos="fade-up-left">
+       <NetworkSection />  
+      </div>
+     
       <SectionTitle>Why Swanirbhar?</SectionTitle>
-      <CardContainer/>
-      <HiringSection/>
+      <div data-aos="fade-up-right">
+        <CardContainer/>
+      </div>
+      <div data-aos="flip-right">
+        <HiringSection/>  
+      </div>
+    
       <SwanirbharEvents/>
       <EventsPage/>
       <FAQs/>

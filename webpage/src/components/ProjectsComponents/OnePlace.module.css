@@ -2,13 +2,15 @@
     margin-top: 30px;
     width: 100%;
     overflow: hidden;
-    padding: 20px 57px;
+    font-family: cursive;
+    padding: 20px 6px;
     background-image: url('https://s3-alpha-sig.figma.com/img/ed10/b0be/1a15674ecc7e4ea341b07d042780d8ca?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fpWF842My~oiXJGIsU5T2SKzMg5rpyiBePkOv6uiy5HSBb-EXL-jdWN2UES5GoZGP3aVmjVJSzbHQ7KSwyhte7SP1pocaR2UCev2a18j~vTqOlvxvWxAVy35AzJS39-GJXJd1p2YuwyBcZHynw2asOFKJPj5ERNns68h5R93MHvYlUu~Gn4K6cO2oN5NWNYznjzRYufTp6-x~2JvNaJLCRTNQOTjQsUPNYUZeBTiTVB0Qutj2~vibEWYFGbEnJKhS-pYEQFqtl5-fRer0okcUoRCG-ITYwey-WaarlKoG9tbHkqkjhSyShxQx-2L9ei5abDG9hgvLSlhBGnyQjXhtQ__');
   }
   
   .container {
     display: flex;
     gap: 20px;
+    justify-content: space-evenly;
   }
   .leftColumn {
     display: flex;
@@ -28,11 +30,12 @@
 
   .oneTitle{
     text-align: center;
-    font-size: 64px;
+    font-size: 54px;
+    font-weight: 200;
   }
   .title {
     color: #000;
-    font-size: 60px;
+    font-size: 45px;
   
     width: 100%;
   }
@@ -44,7 +47,7 @@
     margin-top: 20px;
     font-size: 20px;
     color: #fff;
-    padding: 13px 70px;
+    padding: 13px 40px;
   }
   .rightColumn {
     display: flex;

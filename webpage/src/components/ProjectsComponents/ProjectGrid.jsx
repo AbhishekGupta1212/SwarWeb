@@ -76,6 +76,7 @@ const projectData = [
 const ProjectGrid = () => {
   return (
     <section className={styles.projectGrid}>
+
       {projectData.map((project, index) => (
         <ProjectCard key={index} {...project} />
       ))}

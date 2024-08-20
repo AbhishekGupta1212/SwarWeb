@@ -3,7 +3,7 @@
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    font-family: Inter, sans-serif;
+    font-family: cursive;
     font-weight: 600;
     justify-content: center;
     width: 95%;
@@ -243,6 +243,6 @@
     .chart {
       object-position: center;
       width: 100%;
-      margin-top: 4px;
+      margin-top: -69px;
     }
   }

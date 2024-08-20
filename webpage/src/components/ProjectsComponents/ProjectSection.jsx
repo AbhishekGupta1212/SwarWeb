@@ -6,7 +6,12 @@ const ProjectSection = () => {
   return (
     <section className={styles.projectSection}>
       <h2 className={styles.sectionTitle}>Project Challenges</h2>
-      <ProjectGrid />
+      <div data-aos="flip-right"
+     data-aos-anchor="#example-anchor"
+     data-aos-duration='1500'>
+         <ProjectGrid />
+</div>
+    
      
     </section>
   );

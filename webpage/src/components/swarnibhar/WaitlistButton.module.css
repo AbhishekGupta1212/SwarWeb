@@ -7,8 +7,9 @@
     gap: 10px;
     color: rgba(25, 29, 32, 1);
     width: 34%;
-    font: 700 18px Nunito, sans-serif;
+    font: 700 18px Nunito;
     justify-content: center;
+    font-family: cursive;
     margin-left: 472px;
   }
   

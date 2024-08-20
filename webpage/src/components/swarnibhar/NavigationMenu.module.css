@@ -8,6 +8,7 @@
     padding: 10px;
     margin-top: 15px;
     align-self: center;
+    font-family: cursive
   }
   .aboutImg{
     width: 80%;
@@ -23,7 +24,11 @@
     font: 600 16px Poppins, sans-serif;
     cursor: pointer;
 }
-  
+  h2{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 100;
+  }
   
   .activeSubMenu {
     background-color: #5169f6;
@@ -78,6 +83,10 @@
     .subMenu{
     display: flex;
       gap: 20px;
+    }
+    h2{
+      font-size: 12px;
+      margin-bottom: -4px;
     }
   .subMenuItem{
       border-radius: 10px;

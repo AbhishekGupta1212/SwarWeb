@@ -24,12 +24,18 @@ const ProjectManagement = () => {
           />
         </div>
         <div className={styles.columnRight}>
-          <MilestoneChart />
+        <div data-aos="zoom-in-down">
+            <MilestoneChart />
+        </div>
+        
         </div>
       </section>
       <section className={styles.row}>
         <div className={styles.column}>
-          <GanttChart />
+        <div data-aos="zoom-in-down">
+             <GanttChart />
+        </div>
+       
         </div>
         <div className={styles.columnRight}>
           <FeatureCard
@@ -41,10 +47,18 @@ const ProjectManagement = () => {
         </div>
       </section>
       <h2 className={styles.sectionTitle}>Create a portfolio of work that brings in profit.</h2>
-      <Rectangle/>
+      <div data-aos="flip-up">
+           <Rectangle/>
+      </div>
+   
       <CategoryFilter/>
-      <ProjectSection/>
-      <OnePlace/>
+
+
+     <ProjectSection/>
+     <div data-aos="zoom-out-right">
+       <OnePlace/>
+     </div>
+     
     </main>
   );
 };

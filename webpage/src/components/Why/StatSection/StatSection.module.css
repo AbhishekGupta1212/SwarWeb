@@ -3,6 +3,7 @@
     padding: 56px 64px;
     border-radius: 25px;
     margin-top: -87px;
+    font-family: cursive;
     z-index: 10;
   }
   
@@ -17,7 +18,7 @@
       padding: 0px;
       border-radius: 0px;
       width: 100%;
-      margin-top:0px;
+      margin-top:-6px;
       z-index: 10;
     }
     

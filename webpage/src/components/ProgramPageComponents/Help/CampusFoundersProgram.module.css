@@ -4,20 +4,12 @@
   margin-top: 49px;
   flex-direction: column;
   align-items: center;
-  padding: 50px 80px 89px;
+  padding: 27px 53px 76px;
+  font-family: cursive
 }
-
-@media (max-width: 991px) {
-  .container {
-    max-width: 100%;
-    margin-top: 40px;
-    padding: 0 20px;
-  }
-}
-
 .content {
   display: flex;
-  width: 1131px;
+  width:90%;
   max-width: 100%;
   flex-direction: column;
 }
@@ -32,59 +24,19 @@
   font: 500 40px Poppins, sans-serif;
 }
 
-@media (max-width: 991px) {
-  .title {
-    max-width: 100%;
-  }
-}
-
 .cardContainer {
   margin-top: 37px;
   display: flex;
 }
-
-@media (max-width: 991px) {
-  .cardContainer {
-    max-width: 100%;
-  }
-}
-
 .cardGrid {
   width: 100%;
 }
-
-@media (max-width: 991px) {
-  .cardGrid {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-  }
-}
-
-/* .cardColumn {
-  display: flex;
-  flex-direction: column;
-  line-height: normal;
-  width: 80%;
-  margin-left: 0;
-  border-radius: 0px 40px;
-  border: 2px solid;
-  box-shadow: rgba(59, 46, 240, 0.4) 10px 10px;
-} */
-
-@media (max-width: 991px) {
-  .cardColumn {
-    width: 100%;
-  }
-}
-
 .card {
   border-radius: 0 40px 0 40px;
   box-shadow: #2b59ff 10px 10px;
-  font: 500 16px/28px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
-  min-height: 220px;
+  font: 500 16px/25px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
   margin: 10px;
-  padding: 20px;
+  padding: 135px;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -92,34 +44,10 @@
 }
 
 .card p {
-  margin: auto;
-  font-size: 15px;
+  width: 657%;
+  margin-top: -13px;
+  margin-left: -115px;
 }
-
-@media (max-width: 991px) {
-  .card {
-    margin-top: 40px;
-  }
-}
-
-
-@media (max-width: 991px) {
-  .cardContent {
-    padding: 100px 20px 110px;
-  }
-}
-
-
-
-
-
-/* .card {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
-} */
-
 .flipCardInner {
   position: relative;
   width: 100%;
@@ -157,4 +85,100 @@
   position: absolute;
   top: -95px;
   text-align: center;
+}
+
+
+@media only screen and (max-width: 600px){
+  .container {
+    background-color: #efefef;
+    display: flex;
+    margin-top: 2px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+  .content {
+    display: flex;
+    width: 95%;
+    margin-left: -15px;
+  }
+  
+  .title {
+    color: #000;
+    text-align: center;
+    align-self: center;
+    margin-left: 0px;
+    width: 89%;
+    margin-bottom: 0px;
+    font: 500 13px Poppins, sans-serif;
+  }
+  
+  .cardContainer {
+    margin-top: 10px;
+    display: flex;
+    gap: 16px;
+  }
+  .cardGrid {
+    width: 30%;
+    height: 256px;
+    padding: 0px;
+  }
+  .card {
+    border-radius: 0 40px 0 40px;
+    box-shadow: #2b59ff 10px 10px;
+    font: 499 7px cursive;
+    margin: 2px;
+    padding: 0px;
+    width: 111%;
+    height: 137px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .card p {
+    margin: auto;
+    font-size: 7px;
+  }
+  .flipCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card:hover .flipCardInner {
+    transform: rotateY(180deg);
+  }
+  
+  .flipCardFront, .flipCardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flipCardFront {
+    background-color: #fff;
+    color: black;
+    margin-top: 64px;
+  }
+  
+  .flipCardBack {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+  }
+  
+  .backContent {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+  }
 }

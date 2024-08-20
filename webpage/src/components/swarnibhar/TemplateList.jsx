@@ -35,7 +35,7 @@ const TemplateList = () => {
   return (
     <section className={styles.templateList}>
       {templateData.map((feature, index) => (
-        <TemplateCard
+            <TemplateCard
           key={index}
           title={feature.title}
           imageSrc={feature.imageSrc}

@@ -4,6 +4,7 @@
   margin-left: 115px;
   width: 100%;
   margin-bottom: 30px;
+  font-family: cursive
   }
   
   .cardGrid {
@@ -101,7 +102,7 @@ margin: 0px;
       display: flex;
       flex-direction: column;
       line-height: normal;
-      width: 30%;
+      width: 44%;
       height: 140px;
   margin: 0px;
   

@@ -2,7 +2,8 @@
     border-radius: 42px;
     background-color: #fff;
     color: #313643;
-    font: 600 16px Poppins, sans-serif;
+    font: 600 16px;
+    font-family: cursive;
     padding: 13px 20px;
     border: none;
     cursor: pointer;

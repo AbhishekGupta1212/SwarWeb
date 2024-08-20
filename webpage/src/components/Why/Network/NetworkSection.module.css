@@ -2,6 +2,7 @@
     border-radius: 30px;
     background-color: rgba(245, 241, 253, 1);
     margin: 70px 23px 0 16px;
+    font-family: cursive;
     padding: 0 28px;
     display: flex;
   }
@@ -10,7 +11,7 @@
     display: flex;
     flex-direction: column;
     color: rgba(2, 8, 23, 1);
-    font: 400 24px Poppins, sans-serif;
+    font: 400 24px;
     width: 54%;
   }
   

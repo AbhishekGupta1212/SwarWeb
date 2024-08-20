@@ -1,6 +1,7 @@
 import React from 'react';
 import BusinessStep from './BusinessStep';
 import styles from './BusinessSteps.module.css';
+import WhatYouCanExpect from './WhatCanYouExpect';
 
 const businessSteps = [
   {
@@ -42,7 +43,6 @@ const data = [
 const BusinessSteps = () => {
   return (
     <section className={styles.container}>
-      <h2 className={styles['visually-hidden']}>Business Development Steps</h2>
       <div className={styles.stepsWrapper1}>
         {businessSteps.map((step, index) => (
           <BusinessStep

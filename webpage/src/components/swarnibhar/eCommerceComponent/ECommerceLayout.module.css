@@ -5,6 +5,7 @@
     flex-direction: column;
     overflow: hidden;
     margin-left: 125px;
+    font-family: cursive
   }
   
   .productGrid {

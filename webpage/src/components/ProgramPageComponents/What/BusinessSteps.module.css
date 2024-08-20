@@ -2,15 +2,9 @@
   align-self: center;
   margin-top: 78px;
   width: 90%;
-  margin: 80px auto 20px 80px;
+  margin: 80px auto 20px 42px;
+  font-family: cursive;
 }
-
-@media (max-width: 991px) {
-  .container {
-    margin-top: 40px;
-  }
-}
-
 .stepsWrapper1 {
   gap: 20px;
   display: grid;
@@ -26,15 +20,6 @@
   grid-template-columns: repeat(3,1fr);  
 margin-top: 40px;
 }
-
-@media (max-width: 991px) {
-  .stepsWrapper {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-  }
-}
-
 .stepColumn {
   display: flex;
   flex-direction: column;
@@ -44,17 +29,6 @@ margin-top: 40px;
   margin-left: 40px;
 
 }
-
-@media (max-width: 991px) {
-  .stepColumn {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 40px;
-  }
-}
-
-
-
 .stepIconWrapper {
   background-color: #fff;
   box-shadow: 10px 16px 47px rgba(184, 191, 203, 0.47);
@@ -66,13 +40,6 @@ max-width:185px;
  height: 145px;
   padding: 0 37px;
 }
-
-@media (max-width: 991px) {
-  .stepIconWrapper {
-    padding: 0 20px;
-  }
-}
-
 .stepIcon {
   aspect-ratio: 1;
   object-fit: contain;
@@ -97,4 +64,74 @@ max-width:185px;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+@media only screen and (max-width: 600px){
+  .container {
+    width: 100%;
+    margin:0px;
+  }
+  .stepsWrapper1 {
+    gap: 0px;
+    display: grid;
+    margin-top: 16px;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);  
+    justify-items: center;
+  }
+  
+  .stepsWrapper2 {
+    gap: 15px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);  
+  margin-top: 5px;
+  justify-items: center;
+  }
+  .stepColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 75%;
+    height: 80px;
+    align-items: center;
+    margin-left: 0px;
+  
+  }
+  .stepIconWrapper {
+    background-color: #fff;
+    box-shadow: 10px 16px 47px rgba(184, 191, 203, 0.47);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 21px;
+    padding: 0px
+  }
+  .stepIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 30px;
+  }
+  
+  .stepTitle {
+    color: #000;
+    text-align: center;
+    margin-top: 16px;
+    font: 500 6px Poppins, sans-serif;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
 }

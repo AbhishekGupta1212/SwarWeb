@@ -8,7 +8,8 @@
     text-align: center;
     width: 100%;
     padding: 28px; 
-    font: 16px/28px Poppins, sans-serif;
+    font: 16px/28px ;
+    font-family: cursive;
     border: 1px solid #d9d9d9;
   }
   

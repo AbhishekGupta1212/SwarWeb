@@ -10,16 +10,32 @@ import NavigationMenu from "./NavigationMenu";
 import ProjectManagement from "../ProjectsComponents/ProjectManagement";
 import MainComponent from "../Why/Main/MainComponent";
 import Footer from "./Footer";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 function Main() {
   return (
     <div className={styles.mainContainer}>
-      <MainContent />
-    <VisionComponent/>
+      <div data-aos="fade-down"
+      data-aos-duration="1500">
+         <MainContent />
+      </div>
+      <div data-aos="fade-right"
+      data-aos-duration="1500">
+         <VisionComponent/>
+      </div>
+   
       <TemplateSection/>
-      <TemplateList/>
+      <div data-aos="fade-up-right"
+      data-aos-duration="1500">
+  <TemplateList/>
+      </div>
+    
       <NavigationMenu/>
-      <ProjectManagement/>
+  
+         <ProjectManagement/>
+   
+     
       <MainComponent/>
       <Footer/>
     </div>

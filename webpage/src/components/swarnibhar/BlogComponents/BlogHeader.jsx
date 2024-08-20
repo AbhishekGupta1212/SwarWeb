@@ -35,13 +35,23 @@ const BlogHeader = () => {
         </button>
       </div>
       {activeCategory === 'Blog' && (
-        <BlogPage />
+        <div data-aos="fade-up-left">
+           <BlogPage />
+        </div>
+       
       )}
       {activeCategory === 'Article' && (
-        <BlogArticles />
+        <div data-aos="fade-up-left">
+
+           <BlogArticles />
+        </div>
+       
       )}
       {activeCategory === 'Case Study' && (
-        <LearningManagementSystem />
+        <div data-aos="fade-up-left">
+           <LearningManagementSystem />
+        </div>
+       
       )}
     </header>
   );

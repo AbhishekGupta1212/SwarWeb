@@ -5,13 +5,6 @@
   flex-direction: column;
   font-family: cursive
 }
-.footerHeaading{
-  font: 500 175px Poppins, sans-serif;
-  color: rgba(53, 54, 57, 1);
-  margin-bottom: -150px;
-  margin-top: -11px;
-  margin-left: 116px;
-}
 
 .footerContent {
   background: var(--Natural-Black, #212121);
@@ -224,8 +217,9 @@
   .footer {
     border-radius: 0;
     display: flex;
-    padding-top: 25px;
+    padding-top: 30px;
     flex-direction: column;
+    width: 200%;
   }
   
   .footerContent {
@@ -379,7 +373,7 @@
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: -0.14px;
-    line-height: 0px;
+    line-height: 25px;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -423,12 +417,5 @@
   
   .credibilityHighlight {
     color: #1e94f9;
-  }
-  .footerHeaading{
-    font: 500 61px Poppins, sans-serif;
-    color: rgba(53, 54, 57, 1);
-    margin-bottom: -57px;
-    margin-top: 8px;
-    margin-left: 10px;
   }
 }

@@ -24,7 +24,9 @@ function NavigationMenu() {
 
   return (
     <>
+    <h2 className={styles.header}>Build more than a project.</h2>
       <nav className={styles.navigationMenu}>
+        
         {menuItems.map((item) => (
           <a
             key={item.key}
@@ -40,15 +42,18 @@ function NavigationMenu() {
           </a>
         ))}
       </nav>
-      {activeItem === 'about' && <About />}
+      {activeItem === 'about' && <div data-aos="fade-up-left"><About /></div>}
       {activeItem === 'blogArticleProject' && (
         <>
           <BlogHeader />
         </>
       )}
-      {activeItem === 'forum' && <ForumComponent/>}
-      {activeItem === 'personalizeBot' && <AIComponents/>}
-      {activeItem === 'eCommerce' && <ECommerceLayout/>}
+      {activeItem === 'forum' && <div data-aos="fade-up-left"><ForumComponent/></div>
+       }
+      {activeItem === 'personalizeBot' && <div data-aos="fade-up-left"><AIComponents/></div>
+       }
+      {activeItem === 'eCommerce' && <div data-aos="fade-up-left"> <ECommerceLayout/></div>
+     }
     </>
   );
 }

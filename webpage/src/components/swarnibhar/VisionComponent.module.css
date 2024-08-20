@@ -6,7 +6,8 @@
     color: #000;
     white-space: nowrap;
     /* padding: 28px 70px 89px; */
-    font: 400 36px Poppins, sans-serif;
+    font-family: cursive;
+    font: 400 36px;
     text-align: center;
     margin-bottom: -100px;
     /* border: 1px solid black; */

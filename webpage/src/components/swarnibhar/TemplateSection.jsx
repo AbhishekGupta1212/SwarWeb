@@ -5,7 +5,7 @@ import TemplateList from "./TemplateList";
 function TemplateSection() {
   return (
     <section className={styles.templateSection}>
-      <h2 className={styles.templateh2}>Build more than a portfolio</h2>
+      <h2 className={styles.templateh2}>Don't start from scratch - dive right into one of our template</h2>
       {/* <TemplateList/> */}
     </section>
   );

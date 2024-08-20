@@ -1,22 +1,14 @@
 .faqSection {
     background-color: rgba(238, 238, 255, 1);
     display: flex;
-    width: 89%;
+    width: 90%;
     flex-direction: column;
     align-items: start;
     color: rgba(0, 0, 0, 1);
-    padding: 45px 80px;
-    font: 500 20px Poppins, sans-serif;
+    padding: 45px 64px;
+    font: 500 20px ;
     margin-top: 0px;
   }
-  
-  @media (max-width: 991px) {
-    .faqSection {
-      max-width: 100%;
-      padding: 0 20px;
-    }
-  }
-  
   .faqTitle {
     font-size: 40px;
     text-align: center;
@@ -37,7 +29,7 @@
   .faqQuestion {
     flex-grow: 1;
     font-weight: 500;
-    font-family:Poppins, sans-serif;
+      font-family: cursive;
     font-size: 20px;
     line-height: 30px;
   }
@@ -57,11 +49,60 @@
     font-size: 18px;
     line-height: 30px;
     /* color: blue; */
-    font-family: Poppins, sans-serif;
+      font-family: cursive; 
   }
-  
-  @media (max-width: 991px) {
+
+  @media only screen and (max-width: 600px){
+    .faqSection {
+      background-color: rgba(238, 238, 255, 1);
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: start;
+      color: rgba(0, 0, 0, 1);
+      padding: 0px;
+      height: 520px;
+      font: 500 20px cursive;
+      margin-bottom: 0px;
+    }
+    .faqTitle {
+      font-size: 20px;
+      text-align: center;
+      align-self: center;
+    }
+    
+    .faqItem {
+      display: flex;
+      margin-top: 30px;
+      width: 100%;
+      gap:0px;
+      text-align: left;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .faqQuestion {
+      flex-grow: 1;
+      font-weight: 500;
+        font-family: cursive;
+      font-size: 11px;
+      line-height: 14px;
+    }
+    
+    .faqIcon {
+      aspect-ratio: 1;
+      object-fit: contain;
+      object-position: center;
+      width: 15px;
+      align-self: start;
+    }
+    
     .faqAnswer {
-      max-width: 100%;
+      font-weight: 400;
+      margin-top: 10px;
+      width: 100%;
+      font-size: 11px;
+      line-height: 14px;
+        font-family: cursive; 
     }
   }

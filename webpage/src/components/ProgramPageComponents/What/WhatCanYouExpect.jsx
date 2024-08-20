@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './WhatYouCanExpect.module.css';
+import styles from './WhatCanYouExpect.module.css';
 
 function WhatYouCanExpect() {
   return (
@@ -7,6 +7,7 @@ function WhatYouCanExpect() {
       <h2 className={styles.heading}>
         What you can expect?
       </h2>
+      
     </section>
   );
 }
