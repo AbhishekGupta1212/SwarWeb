@@ -139,8 +139,10 @@
   }
   
   .card p {
-    margin: auto;
     font-size: 7px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
   }
   .flipCardInner {
     position: relative;
@@ -167,7 +169,7 @@
   .flipCardFront {
     background-color: #fff;
     color: black;
-    margin-top: 64px;
+    margin-top: 52px; 
   }
   
   .flipCardBack {
