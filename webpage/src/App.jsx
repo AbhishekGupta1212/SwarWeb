@@ -8,9 +8,9 @@ import { AllRoutes } from "./components/Routes/AllRoutes";
 const App = () => {
   return (
     <div className={styles.app}>
-      {/* <AllRoutes/> */}
+      <AllRoutes/>
 {/* <Main/> */}
-<ProgramPageComponent/>
+{/* <ProgramPageComponent/> */}
     </div>
   );
 };
