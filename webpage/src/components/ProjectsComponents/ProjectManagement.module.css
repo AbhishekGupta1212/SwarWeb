@@ -6,9 +6,9 @@
   
   .row {
     display: flex;
-    width: 87.5%;
-    margin-left: 75px;
-    border:14.8px solid #7465c9;
+    width: 82.4%;
+    margin-left: 134px;
+    border: 14.8px solid #7465c9
   }
     .column {
     display: flex;

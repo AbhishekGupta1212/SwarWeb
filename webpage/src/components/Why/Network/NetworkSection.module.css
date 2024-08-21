@@ -1,10 +1,11 @@
 .networkSection {
-    border-radius: 30px;
-    background-color: rgba(245, 241, 253, 1);
-    margin: 70px 23px 0 16px;
-    font-family: cursive;
-    padding: 0 28px;
-    display: flex;
+  border-radius: 30px;
+  background-color: rgba(245, 241, 253, 1);
+  margin: 58px 23px 0 138px;
+  width: 80%;
+  font-family: cursive;
+  padding: 4px;
+  display: flex;
   }
   
   .content {

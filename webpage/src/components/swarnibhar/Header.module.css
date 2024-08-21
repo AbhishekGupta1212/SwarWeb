@@ -2,8 +2,7 @@
     position: relative;
     align-self: center;
     display: flex;
-    width: 1260px;
-    max-width: 100%;
+    width: 100%;
     align-items: start;
     gap: 20px;
     font-weight: 400;

@@ -1,16 +1,15 @@
 .waitlistButton {
-    border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.86);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
-    padding-left: 25px;
-    gap: 10px;
-    color: rgba(25, 29, 32, 1);
-    width: 34%;
-    font: 700 18px Nunito;
-    justify-content: center;
-    font-family: cursive;
-    margin-left: 472px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.86);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  padding-left: 25px;
+  gap: 10px;
+  color: rgba(25, 29, 32, 1);
+  width: 34%;
+  font: 700 18px Nunito;
+  font-family: cursive;
+  margin-left: 604px;
   }
   
   .buttonText {
