@@ -125,6 +125,7 @@
       color: #73817a;
       width: 15px;
       margin-left: 2px;
+      font-size: 6px;
     
     }
     
@@ -132,6 +133,7 @@
       background-color:#feefc6;
       color: #8f897d;
       width: 25px;
+      font-size: 6px;
       margin-left: 2px;
     }
     
@@ -144,18 +146,18 @@
       background-color: #d2f5d2;
       border-radius: 10px;
       margin-top: 2px;
-      padding: 5px;
+      padding: 0px;
       margin-right: 2px;
     }
     
     .icon {
-      width: 12px;
-      height: 12px;
+      width: 10px;
+      height: 10px;
     }
     
     .projectTitle {
       color: #5e6168;
-      font-size: 8px;
+      font-size: 7px;
       margin-bottom: 5px;
       margin-left: 5px;
     }
@@ -178,7 +180,7 @@
     .skill {
       background-color: #f1f1f4;
       border-radius: 12px;
-      padding: 5px;
+      padding: 0px;
       font-size: 5px;
       color: #868790;
     }

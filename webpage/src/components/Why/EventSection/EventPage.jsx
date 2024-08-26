@@ -5,9 +5,9 @@ import EventsSection from './EventSection';
 
 const EventsPage = () => (
   <main>
-    <div data-aos="fade-up">
+    
           <StatsSection />
-    </div>
+  
 
     <EventsSection />
   </main>

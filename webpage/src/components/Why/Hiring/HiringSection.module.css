@@ -1,8 +1,8 @@
 .container {
   align-self: center;
   margin-top: 25px;
-  margin-left: 182px;
-  width: 76%;
+  margin-left: 56px;
+  width: 73%;
   font-family: cursive;
   }
   
@@ -157,6 +157,7 @@
     
     .roleCard h2{
       font-size: 25px;
+      margin-bottom: 2px;
     }
   
     

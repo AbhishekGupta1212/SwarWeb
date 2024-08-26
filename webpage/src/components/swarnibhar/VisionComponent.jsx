@@ -7,7 +7,7 @@ function VisionComponent() {
   return (
     <>
      <section className={styles.visionText}>Things You Can Do On Swanirbhar.</section>
-     <VisionSection/>
+          <VisionSection/>
     </>
    
   );

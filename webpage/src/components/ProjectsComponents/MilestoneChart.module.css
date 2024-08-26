@@ -140,7 +140,7 @@
     .content {
       display: flex;
       width: 376px;
-   
+      padding: 10px 0px;
       flex-direction: column;
       object-position: center;
     }

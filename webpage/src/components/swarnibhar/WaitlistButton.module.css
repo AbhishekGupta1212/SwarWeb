@@ -9,7 +9,7 @@
   width: 34%;
   font: 700 18px Nunito;
   font-family: cursive;
-  margin-left: 604px;
+  margin-left: 325px;
   }
   
   .buttonText {
@@ -34,12 +34,13 @@
       box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
       display: flex;
       padding-left: 13px;
+      margin-top: 12px;
       gap: 10px;
       color: rgba(25, 29, 32, 1);
-      width: 60%;
+      width: 55%;
       font: 400 10px Nunito, sans-serif;
       justify-content: center;
-      margin-left: 134px;
+      margin-left: 52px;
     }
     
     .buttonText {

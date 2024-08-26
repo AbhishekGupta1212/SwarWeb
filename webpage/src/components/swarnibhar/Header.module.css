@@ -21,7 +21,7 @@
   .headerContent {
     align-self: end;
     display: flex;
-    margin-top: 20px;
+    margin-top: 88px;
     flex-direction: column;
     font-family: Nunito, sans-serif;
     line-height: 1.1;
@@ -76,7 +76,7 @@
     }
     
     .headerContent {
-      margin-top: 10px;
+      margin-top: 27px;
       flex-direction: column;
       font-family: Nunito, sans-serif;
       line-height: 1.1;

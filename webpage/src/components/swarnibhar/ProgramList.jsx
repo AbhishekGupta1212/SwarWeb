@@ -13,8 +13,7 @@ const programs = [
 ];
 
 function ProgramList() {
-  const [showComponent, setShowComponent] = useState(false);
-//   let componentRender;
+  const [showComponent, setShowComponent] = useState(false);;
 
   return (
     <ul className={styles.programList}>

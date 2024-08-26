@@ -18,10 +18,11 @@ function MainContent() {
           </h2>
           <div className={styles.programsContainer}>
               <WaitlistButton />  
-            <ProgramList />
+            {/* <ProgramList /> */}
+            <img loading="lazy" src={featuredimg} alt="Featured content" className={styles.featuredImage} />
           </div>
         </section>
-        <img loading="lazy" src={featuredimg} alt="Featured content" className={styles.featuredImage} />
+        
       </div>
       <Supporter/>
     </main>

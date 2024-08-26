@@ -16,26 +16,12 @@ AOS.init();
 function Main() {
   return (
     <div className={styles.mainContainer}>
-      <div data-aos="fade-down"
-      data-aos-duration="1500">
          <MainContent />
-      </div>
-      <div data-aos="fade-right"
-      data-aos-duration="1500">
          <VisionComponent/>
-      </div>
-   
       <TemplateSection/>
-      <div data-aos="fade-up-right"
-      data-aos-duration="1500">
   <TemplateList/>
-      </div>
-    
       <NavigationMenu/>
-  
          <ProjectManagement/>
-   
-     
       <MainComponent/>
       <Footer/>
     </div>

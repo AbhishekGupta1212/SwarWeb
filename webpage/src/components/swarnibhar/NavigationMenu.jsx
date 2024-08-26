@@ -16,7 +16,7 @@ const menuItems = [
 ];
 
 function NavigationMenu() {
-  const [activeItem, setActiveItem] = useState('about'); // Initialize with the first item
+  const [activeItem, setActiveItem] = useState('about');
 
   const handleItemClick = (key) => {
     setActiveItem(key);
@@ -42,17 +42,17 @@ function NavigationMenu() {
           </a>
         ))}
       </nav>
-      {activeItem === 'about' && <div data-aos="fade-up-left"><About /></div>}
+      {activeItem === 'about' && <About />}
       {activeItem === 'blogArticleProject' && (
         <>
           <BlogHeader />
         </>
       )}
-      {activeItem === 'forum' && <div data-aos="fade-up-left"><ForumComponent/></div>
+      {activeItem === 'forum' && <ForumComponent/>
        }
-      {activeItem === 'personalizeBot' && <div data-aos="fade-up-left"><AIComponents/></div>
+      {activeItem === 'personalizeBot' && <AIComponents/>
        }
-      {activeItem === 'eCommerce' && <div data-aos="fade-up-left"> <ECommerceLayout/></div>
+      {activeItem === 'eCommerce' &&  <ECommerceLayout/>
      }
     </>
   );

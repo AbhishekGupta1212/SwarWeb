@@ -1,13 +1,13 @@
 .learnSection {
-    border-radius: 30px;
-    background-color: rgba(240, 242, 255, 1);
-    margin-top: 41px;
-    width: 92.5%;
-    max-width: 1140px;
-    padding: 0 31px;
-    display: flex;
-    font-family: cursive;
-    gap: 20px;
+  border-radius: 30px;
+  background-color: rgba(240, 242, 255, 1);
+  margin-top: 41px;
+  width: 72.5%;
+  padding: 0 19px;
+  display: flex;
+  margin-left: 48px;
+  font-family: cursive;
+  gap: 20px;
   }
   
   .content {
@@ -39,7 +39,10 @@
     height: 412px;
     margin: -32px auto 0;
   }
-  
+  .imageContainer img{
+    z-index: 10;
+    margin-left: -250px;
+  }
   @media only screen and (max-width: 600px){
     .learnSection {
       border-radius: 30px;
@@ -75,7 +78,7 @@
     
     .description {
       margin-top:0px;
-      font-size: 11px;
+      font-size: 8px;
     }
     
     .imageContainer {
@@ -84,5 +87,9 @@
       width: 150px;
       height: 140px;
       margin: 0;
+    }
+    .imageContainer img{
+      margin-left: -62px;
+      width: 149%;
     }
   }

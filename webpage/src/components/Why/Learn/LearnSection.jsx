@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './LearnSection.module.css';
+import learnimg from '../../Images/learn1.png'
 
 const LearnSection = () => {
   return (
@@ -15,7 +16,9 @@ const LearnSection = () => {
           Participate in speaker sessions <span className={styles.highlight}>live events</span>, and award shows to advance your skills.
         </p>
       </div>
-      <div className={styles.imageContainer}/>
+      <div className={styles.imageContainer}>
+        <img src={learnimg} alt="" />
+      </div>
       
 
     </section>

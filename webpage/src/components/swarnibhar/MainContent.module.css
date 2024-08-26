@@ -30,8 +30,7 @@
     align-self: end;
     width: 100%;
     font: 400 25px/39px Nunito, -apple-system, Roboto, Helvetica, sans-serif;
-    margin-left: 283px;
-    /* margin-bottom: 150px; */
+    margin-left: 0px;    /* margin-bottom: 150px; */
   }
   
   .programsContainer {
@@ -40,10 +39,9 @@
   }
   
   .featuredImage {
-    width: 30%;
+    width: 50%;
+    margin-left: -234px;
     border-radius: 0;
-    margin-top: 183px;
-    margin-right: 63px;
   }
   
   @media only screen and (max-width: 600px) {
@@ -78,8 +76,8 @@
       align-self: end;
       width: 300px;
       font: 11px Nunito, -apple-system, Roboto, Helvetica, sans-serif;
-      margin-left: 25px;
-      margin-top: 22px;
+      margin-left: -42px;
+      margin-top: 23px;
     }
     
     .programsContainer {
@@ -88,9 +86,9 @@
     }
     
     .featuredImage {
-           width: 39%;
-        border-radius: 0;
-        margin-top: 120px;
-        margin-right: 0px;
-    }
+      width: 62%;
+      border-radius: 0;
+      margin-top: -10px;
+      margin-left: -70px;
+  }
   }

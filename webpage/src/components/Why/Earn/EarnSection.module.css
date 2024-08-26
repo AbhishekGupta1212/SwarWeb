@@ -1,9 +1,9 @@
 
 .div{
   background-color: rgba(255, 247, 227, 1);
-  margin: 44px 23px 0 152px;
+  margin: 44px 23px 0 74px;
   padding: 20px;
-  width: 76%;
+  width: 73%;
   border-radius: 56px;
   font-family: cursive;
 }
@@ -139,8 +139,9 @@
 .jobCategories {
   display: flex;
   flex-wrap: wrap;
-  gap: 2px;
-  margin: -16px 49px;
+  gap: 1px;
+  width: 100%;
+  margin: -19px 7px;
 }
 
 .jobCategory {

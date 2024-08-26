@@ -1,6 +1,9 @@
 import React from "react";
 import styles from './OnePlace.module.css';
 import Carousel from "react-multi-carousel";
+import phn1 from '../Images/phn1.png'
+import phn2 from '../Images/phn2.png'
+import phn3 from '../Images/phn3.png'
 
 function OnePlace() {
   
@@ -77,7 +80,7 @@ function OnePlace() {
             <div className={styles.imageWrapper}>
               <img 
                 loading="lazy" 
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/86d598b89a747fb5ffd16a0a907cd465798e4c610ff606428dda2bc41511e80a?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca" 
+                src={phn1}
                 className={styles.featureImage} 
                 alt="Feature illustration"
               />
@@ -99,7 +102,7 @@ function OnePlace() {
             <div className={styles.imageWrapper}>
               <img 
                 loading="lazy" 
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/2c8309be613befe33c366e4f5f5ee434d93a8351a293de8ba8c88d9ad8cb2728?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca" 
+                src={phn2}
                 className={styles.featureImage} 
                 alt="Feature illustration"
               />
@@ -121,7 +124,7 @@ function OnePlace() {
             <div className={styles.imageWrapper}>
               <img 
                 loading="lazy" 
-                src="https://s3-alpha-sig.figma.com/img/199e/fe07/0f7da27641f326a6a715f1e00e3acef1?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dH1eRnp-rOqp2KE6Ofvr0h1UaMhPbqV5PZMGOxZB4GKz~ive3mQ-RngEeOmDpTJCNNEs2HUNvhJZ7R1UXe4KWvbPBD5aMnBPFT8P4AbWEbTxYOgE7w0R7spzZ3f0ceyV0Nn23DJqpY8iX9olLXwKu-ubSQ1dmMGziVQMlF~SgxJF77YpTu6aDWUjrytFo0cBqrTVCMGI3RFyBj6CTxER7qQdhgfaBrTjMxCS1ehXb-yGvJDOXuxkHv4d1LXvHBnkjJrjMlIUjxzpxx9atBDm33VaVrja1dim-Ov-ZwwSJwTOAHWmik6Mhoi5uLMzOToNU0B~lxd66pLHdc5HxcJkUA__" 
+                src={phn3}
                 className={styles.featureImage} 
                 alt="Feature illustration"
               />

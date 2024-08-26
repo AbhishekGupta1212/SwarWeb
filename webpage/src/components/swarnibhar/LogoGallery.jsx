@@ -1,7 +1,6 @@
 import React from "react";
 import styles from './LogoGallery.module.css';
-import "react-multi-carousel/lib/styles.css";
-import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";import Carousel from "react-multi-carousel";
 const logoData = [
   { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/2719b87237d6e90423ac66775623d07fecd9ee0282a782e400e2884a7607157f?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca", alt: "Company logo 1", className: styles.logo1 },
   { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/6d3b30c60e4e6dc008f1d2be5adbdfd73322fdb9f29a115c521de4f8551fb628?placeholderIfAbsent=true&apiKey=3d13fd40ad0c42f4bdd670568134c3ca", alt: "Company logo 2", className: styles.logo2 },
@@ -19,6 +18,7 @@ function LogoGallery() {
       key={index}
       src={item.src}
       className={`${styles.item} ${item.className}`}
+      alt={item.alt}
     />
   ))}
 </div>
