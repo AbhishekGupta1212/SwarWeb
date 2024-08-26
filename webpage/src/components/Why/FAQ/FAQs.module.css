@@ -4,7 +4,7 @@
     align-self: center;
     display: flex;
     margin-top: 85px;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     margin-left: 0px;
     width: 85%;
     flex-direction: column;
@@ -51,7 +51,7 @@
     width: 100%;
     flex-direction: column;
     color: rgba(52, 57, 69, 1);
-    font: 400 13px Poppins, sans-serif;
+    font: 400 13px 'Times New Roman', Times, serif;
   }
   
 
@@ -96,7 +96,7 @@
     color: rgba(52, 57, 69, 1);
     width: 80%;
     padding: 20px 80px 200px 20px;
-    font: 400 13px Poppins, sans-serif;
+    font: 400 13px 'Times New Roman', Times, serif;
     border: 1px solid rgba(0, 0, 0, 1);
   }
   .answerIndicator {
@@ -168,7 +168,7 @@
       width: 100%;
       flex-direction: column;
       color: rgba(52, 57, 69, 1);
-      font: 400 6px Poppins, sans-serif;
+      font: 400 6px 'Times New Roman', Times, serif;
     }
     
   
@@ -214,7 +214,7 @@
       color: rgba(52, 57, 69, 1);
       width: 80%;
       padding: 5px;
-      font: 400 8px Poppins, sans-serif;
+      font: 400 8px 'Times New Roman', Times, serif;
       border: 1px solid rgba(0, 0, 0, 1);
     }
     .answerIndicator {

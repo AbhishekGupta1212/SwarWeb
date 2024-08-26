@@ -3,7 +3,7 @@
   display: flex;
   padding-top: 74px;
   flex-direction: column;
-  font-family: cursive
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .footerContent {
@@ -41,7 +41,7 @@
   color: #fff;
   text-transform: uppercase;
   margin-top: 30px;
-  font: 400 28px Poppins, sans-serif;
+  font: 400 28px 'Times New Roman', Times, serif;
 }
 
 
@@ -70,7 +70,7 @@
 .cardTitle {
   color: #000;
   text-align: center;
-  font: 600 16px Nunito, sans-serif;
+  font: 600 16px 'Times New Roman', Times, serif;
 }
 
 .logoContainer {
@@ -125,7 +125,7 @@
   gap: 20px;
   color: #fff;
   justify-content: space-around;
-  font: 500 13px Poppins, sans-serif;
+  font: 500 13px 'Times New Roman', Times, serif;
 }
 
 
@@ -173,7 +173,7 @@
 
 
 .copyrightText {
-  font-family: Poppins, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   align-self: stretch;
 }
 
@@ -181,7 +181,7 @@
   display: flex;
   align-items: center;
   gap: 32px;
-  font-family: Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+  font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,'Times New Roman', Times, serif;
 
   justify-content: center;
 }
@@ -256,7 +256,7 @@
     color: #fff;
     text-transform: uppercase;
     margin-top: 0px;
-    font: 400 16px Poppins, sans-serif;
+    font: 400 16px 'Times New Roman', Times, serif;
   }
   
   
@@ -286,7 +286,7 @@
   .cardTitle {
     color: #000;
     text-align: center;
-    font: 600 6px Nunito, sans-serif;
+    font: 600 6px 'Times New Roman', Times, serif;
   }
   
   .logoContainer {
@@ -340,7 +340,7 @@
     color: #fff;
     justify-content: flex-start;
     margin-left: 18px;
-    font: 500 7px Poppins, sans-serif;
+    font: 500 7px 'Times New Roman', Times, serif;
   }
   
   
@@ -380,7 +380,7 @@
   
   
   .copyrightText {
-    font-family: Poppins, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     align-self: stretch;
     font-size: 5px;
   }
@@ -389,7 +389,7 @@
     display: flex;
     align-items: center;
     gap: 0px;
-    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,'Times New Roman', Times, serif;
     justify-content: center;
   }
   

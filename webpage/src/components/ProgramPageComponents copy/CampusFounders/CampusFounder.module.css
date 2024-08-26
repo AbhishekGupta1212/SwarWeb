@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: Poppins, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   color: #fff;
   font-weight: 500;
   background:linear-gradient(rgba(60, 255, 206, 1),rgba(145, 242, 207, 1),rgba(206, 255, 184, 1));
@@ -11,7 +11,7 @@ height: 545px;
 
 .mixed{
   font-size: 20px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   line-height: 30px;
   width: 88%;
   /* text-align: left; */

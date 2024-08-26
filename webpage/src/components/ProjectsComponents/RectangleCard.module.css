@@ -9,7 +9,7 @@
     width: 100%;
     padding: 28px; 
     font: 16px/28px ;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     border: 1px solid #d9d9d9;
   }
   
@@ -43,7 +43,7 @@
       text-align: center;
       width: 90%;
       padding: 2px; 
-      font: 10px Poppins, sans-serif;
+      font: 10px 'Times New Roman', Times, serif;
       border: 1px solid #d9d9d9;
     }
     

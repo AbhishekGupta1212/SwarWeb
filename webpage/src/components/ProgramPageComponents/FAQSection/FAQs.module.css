@@ -29,7 +29,7 @@
   .faqQuestion {
     flex-grow: 1;
     font-weight: 500;
-      font-family: cursive;
+      font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     line-height: 30px;
   }
@@ -49,7 +49,7 @@
     font-size: 18px;
     line-height: 30px;
     /* color: blue; */
-      font-family: cursive; 
+      font-family: 'Times New Roman', Times, serif; 
   }
 
   @media only screen and (max-width: 600px){
@@ -62,7 +62,7 @@
       color: rgba(0, 0, 0, 1);
       padding: 0px;
       height: 520px;
-      font: 500 20px cursive;
+      font: 500 20px 'Times New Roman', Times, serif;
       margin-bottom: 0px;
     }
     .faqTitle {
@@ -84,7 +84,7 @@
     .faqQuestion {
       flex-grow: 1;
       font-weight: 500;
-        font-family: cursive;
+        font-family: 'Times New Roman', Times, serif;
       font-size: 11px;
       line-height: 14px;
     }
@@ -103,6 +103,6 @@
       width: 100%;
       font-size: 11px;
       line-height: 14px;
-        font-family: cursive; 
+        font-family: 'Times New Roman', Times, serif; 
     }
   }

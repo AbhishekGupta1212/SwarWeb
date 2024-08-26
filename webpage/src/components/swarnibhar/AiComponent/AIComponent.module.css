@@ -5,7 +5,7 @@
     flex-direction: column;
     overflow: hidden;
     margin-left:95px;
-    font-family: cursive
+    font-family: 'Times New Roman', Times, serif;
   }
   .navigation {
     border-radius: 42px;
@@ -19,7 +19,7 @@
     color: #5169f6;
     text-align: center;
     padding: 10px 35px;
-    font: 600 16px Poppins, sans-serif;
+    font: 600 16px 'Times New Roman', Times, serif;
   }
   
 
@@ -75,7 +75,7 @@
     overflow: hidden;
     color: #fff;
     text-align: center;
-    font: 600 16px Poppins, sans-serif;
+    font: 600 16px 'Times New Roman', Times, serif;
   }
   
 
@@ -172,7 +172,7 @@
       overflow: hidden;
       color: #fff;
       text-align: center;
-      font: 600 16px Poppins, sans-serif;
+      font: 600 16px 'Times New Roman', Times, serif;
     }
     
   

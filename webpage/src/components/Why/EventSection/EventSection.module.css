@@ -3,19 +3,19 @@
     padding:15px;
     width: 101%;
     margin-top: 8px;
-    font-family: cursive
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .sectionTitle {
     color: #313643;
-    font: 500 32px Poppins, sans-serif;
+    font: 500 32px 'Times New Roman', Times, serif;
     text-align: center;
     margin-bottom: 30px;
   }
   
   .pastEventsTitle {
     /* color: #313643; */
-    font: 500 32px Poppins, sans-serif;
+    font: 500 32px 'Times New Roman', Times, serif;
     text-align: center;
     /* margin-bottom: 30px; */
     color: #02081f;
@@ -48,13 +48,13 @@
     
     .sectionTitle {
       color: #313643;
-      font: 500 20px Poppins, sans-serif;
+      font: 500 20px 'Times New Roman', Times, serif;
       text-align: center;
       margin-bottom: 0px;
     }
     
     .pastEventsTitle {
-      font: 400 12px Poppins, sans-serif;
+      font: 400 12px 'Times New Roman', Times, serif;
       text-align: center;
       color: #02081f;
       font-weight: 700;

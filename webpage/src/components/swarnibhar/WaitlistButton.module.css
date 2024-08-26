@@ -8,7 +8,7 @@
   color: rgba(25, 29, 32, 1);
   width: 34%;
   font: 700 18px Nunito;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
   margin-left: 325px;
   }
   
@@ -38,7 +38,7 @@
       gap: 10px;
       color: rgba(25, 29, 32, 1);
       width: 55%;
-      font: 400 10px Nunito, sans-serif;
+      font: 400 10px 'Times New Roman', Times, serif;
       justify-content: center;
       margin-left: 52px;
     }

@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0 134px;
-    margin-top: 60px;
-    font-family: cursive;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
   }
   
 
@@ -15,7 +15,7 @@
     margin-left: 15px;
     color: #5169f6;
     padding: 10px 25px;
-    font: 600 20px Nunito, sans-serif;
+    font: 600 20px 'Times New Roman', Times, serif;
     border: 1px solid #5169f6;
   }
   
@@ -24,7 +24,7 @@
   .statistic {
     color: #5169f6;
     margin: 10px 0 0 15px;
-    font: 600 64px Nunito, sans-serif;
+    font: 600 64px 'Times New Roman', Times, serif;
   }
   
 
@@ -32,7 +32,7 @@
   .description {
     color: #000;
     margin: 20px 0 0 15px;
-    font: 600 24px Nunito, sans-serif;
+    font: 600 24px 'Times New Roman', Times, serif;
   }
   
 
@@ -51,7 +51,7 @@
   
   .image {
     aspect-ratio: 1.85;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
     width: 100%;
   }
@@ -71,7 +71,7 @@
       margin-left: 0px;
       color: #5169f6;
       padding: 10px 25px;
-      font: 600 20px Nunito, sans-serif;
+      font: 600 20px 'Times New Roman', Times, serif;
       border: 1px solid #5169f6;
     }
     
@@ -80,7 +80,7 @@
     .statistic {
       color: #5169f6;
       margin: 10px 0 0 15px;
-      font: 600 24px Nunito, sans-serif;
+      font: 600 24px 'Times New Roman', Times, serif;
     }
     
   
@@ -88,7 +88,7 @@
     .description {
       color: #000;
       margin: 25px 0 0 15px;
-      font: 600 24px Nunito, sans-serif;
+      font: 600 24px 'Times New Roman', Times, serif;
     }
     
   

@@ -2,7 +2,7 @@
     border-radius: 15px;
     padding: 50px 64px;
     text-align: center;
-    font-family: cursive
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .statCard:nth-child(1) {
@@ -36,7 +36,7 @@
       height: 81px;
       padding: 2px;
       margin-left: 0px;
-      font-family: Poppins, sans-serif;
+      font-family: 'Times New Roman', Times, serif;
     }
     
     .statCard:nth-child(1) {

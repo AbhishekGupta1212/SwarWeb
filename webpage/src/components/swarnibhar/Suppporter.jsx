@@ -5,7 +5,7 @@ import LogoGallery from "./LogoGallery";
 function Supporter() {
   return (
     <section className={styles.supporters}>
-      <h2 className={styles.supportersTitle}>OUR SUPPORTERS</h2>
+      <h2 className={styles.supportersTitle}>OUR SUPPORTING PARTNERS</h2>
       <LogoGallery/>
     </section>
   );

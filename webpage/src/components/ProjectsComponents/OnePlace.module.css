@@ -2,7 +2,7 @@
     margin-top: 30px;
     width: 100%;
     overflow: hidden;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     padding: 20px 6px;
     background-image: url('https://s3-alpha-sig.figma.com/img/ed10/b0be/1a15674ecc7e4ea341b07d042780d8ca?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fpWF842My~oiXJGIsU5T2SKzMg5rpyiBePkOv6uiy5HSBb-EXL-jdWN2UES5GoZGP3aVmjVJSzbHQ7KSwyhte7SP1pocaR2UCev2a18j~vTqOlvxvWxAVy35AzJS39-GJXJd1p2YuwyBcZHynw2asOFKJPj5ERNns68h5R93MHvYlUu~Gn4K6cO2oN5NWNYznjzRYufTp6-x~2JvNaJLCRTNQOTjQsUPNYUZeBTiTVB0Qutj2~vibEWYFGbEnJKhS-pYEQFqtl5-fRer0okcUoRCG-ITYwey-WaarlKoG9tbHkqkjhSyShxQx-2L9ei5abDG9hgvLSlhBGnyQjXhtQ__');
   }
@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    font-family: Inter, sans-serif;
+    font-family: Inter,'Times New Roman', Times, serif;
     font-weight: 600;
     margin: auto 0;
   }
@@ -76,7 +76,7 @@
     flex-grow: 1;
     width: 302px;
     margin: auto 0;
-    font: 500 32px Poppins, sans-serif;
+    font: 500 32px 'Times New Roman', Times, serif;
   }
   
   .imageWrapper {
@@ -158,7 +158,7 @@
       display: flex;
       flex-direction: column;
       align-self: stretch;
-      font-family: Inter, sans-serif;
+      font-family: Inter,'Times New Roman', Times, serif;
       font-weight: 600;
       margin: auto 0;
     }
@@ -209,7 +209,7 @@
       flex-grow: 1;
       width: 350px;
       margin:auto 5px;
-      font: 500 8px Poppins, sans-serif;
+      font: 500 8px 'Times New Roman', Times, serif;
     }
     
     .imageWrapper {

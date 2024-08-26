@@ -3,7 +3,7 @@
   margin-top: 78px;
   width: 90%;
   margin: 80px auto 20px 42px;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
 }
 .stepsWrapper1 {
   gap: 20px;
@@ -51,7 +51,7 @@ max-width:185px;
   color: #000;
   text-align: center;
   margin-top: 30px;
-  font: 500 20px Poppins, sans-serif;
+  font: 500 20px 'Times New Roman', Times, serif;
 }
 
 .visually-hidden {
@@ -120,7 +120,7 @@ max-width:185px;
     color: #000;
     text-align: center;
     margin-top: 16px;
-    font: 500 6px Poppins, sans-serif;
+    font: 500 6px 'Times New Roman', Times, serif;
   }
   
   .visually-hidden {

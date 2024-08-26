@@ -3,7 +3,7 @@
     text-align: center;
     align-self: center;
     margin-top: 40px;
-    font: 500 40px Poppins, sans-serif;
+    font: 500 40px 'Times New Roman', Times, serif;
   }
   
   @media (max-width: 991px) {

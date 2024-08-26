@@ -5,7 +5,7 @@
     flex-direction: column;
     overflow: hidden;
     margin-left: 125px;
-    font-family: cursive
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .productGrid {

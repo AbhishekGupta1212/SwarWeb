@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   padding: 27px 53px 76px;
-  font-family: cursive
+  font-family: 'Times New Roman', Times, serif;
 }
 .content {
   display: flex;
@@ -21,7 +21,7 @@
   margin-left: 33px;
   width: 58%;
   margin-bottom: -45px;
-  font: 500 40px Poppins, sans-serif;
+  font: 500 40px 'Times New Roman', Times, serif;
 }
 
 .cardContainer {
@@ -34,7 +34,7 @@
 .card {
   border-radius: 0 40px 0 40px;
   box-shadow: #2b59ff 10px 10px;
-  font: 500 16px/25px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+  font: 500 16px/25px Poppins, -apple-system, Roboto, Helvetica,'Times New Roman', Times, serif;
   margin: 10px;
   padding: 135px;
   background-color: #fff;
@@ -111,7 +111,7 @@
     margin-left: 0px;
     width: 89%;
     margin-bottom: 0px;
-    font: 500 13px Poppins, sans-serif;
+    font: 500 13px 'Times New Roman', Times, serif;
   }
   
   .cardContainer {
@@ -127,7 +127,7 @@
   .card {
     border-radius: 0 40px 0 40px;
     box-shadow: #2b59ff 10px 10px;
-    font: 499 7px cursive;
+    font: 499 7px 'Times New Roman', Times, serif;
     margin: 2px;
     padding: 0px;
     width: 111%;

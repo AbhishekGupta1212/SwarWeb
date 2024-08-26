@@ -7,7 +7,7 @@
     width: 92%;
     align-items: center;
     padding: 28px 51px;
-    font-family: cursive
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .backgroundImage {
@@ -24,7 +24,7 @@
     color: #fff;
     text-align: center;
     margin-left: 83px;
-    font: 500 40px Poppins, sans-serif;
+    font: 500 40px 'Times New Roman', Times, serif;
   }
   
   
@@ -73,7 +73,7 @@
     color: #fff;
     letter-spacing: -0.24px;
     margin-top: 43px;
-    font: 500 20px/1.4 Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    font: 500 20px/1.4 Poppins, -apple-system, Roboto, Helvetica,'Times New Roman', Times, serif;
   }
   .stepNumber {
     background-color: rgba(43, 89, 255, 1);
@@ -86,7 +86,7 @@
     align-items: center;
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
-    font-family: Inter, sans-serif;
+    font-family: Inter,'Times New Roman', Times, serif;
   }
   
   .stepNumber.outlined {
@@ -120,7 +120,7 @@
   }
   .stepText {
     color: #000;
-    font-family: Poppins, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     align-self: stretch;
     margin: auto 0;
@@ -173,7 +173,7 @@
       color: #fff;
       text-align: center;
       margin-left: 0px;
-      font: 398 10px Poppins, sans-serif;
+      font: 398 10px 'Times New Roman', Times, serif;
       margin-top: 9px;
       width: 70%;
     }
@@ -221,7 +221,7 @@
       color: #fff;
       letter-spacing: 0.76px;
       margin-top: 0px;
-      font: 500 7px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+      font: 500 7px Poppins, -apple-system, Roboto, Helvetica,'Times New Roman', Times, serif;
       margin-left: 53px;
       width: 64%;
     }
@@ -237,7 +237,7 @@
       align-items: center;
       color: rgba(255, 255, 255, 1);
       font-weight: 400;
-      font-family: Inter, sans-serif;
+      font-family: Inter,'Times New Roman', Times, serif;
     }
     
     .stepNumber.outlined {
@@ -268,7 +268,7 @@
     }
     .stepText {
       color: #000;
-      font-family: Poppins, sans-serif;
+      font-family: 'Times New Roman', Times, serif;
       font-weight: 500;
       align-self: stretch;
       font-size: 7px;

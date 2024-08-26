@@ -1,6 +1,6 @@
 .eligibilityCriteria {
     margin: 83px 31px 0;
-    font-family: cursive
+    font-family: 'Times New Roman', Times, serif;
   }
   .criteriaList {
     gap: 20px;
@@ -37,7 +37,7 @@
     color: var(--White---100, #fafafa);
     white-space: nowrap;
     padding: 0 2px;
-    font: 500 18px/1 Inter, sans-serif;
+    font: 500 18px/1 Inter,'Times New Roman', Times, serif;
   }
   .criteriaIcon {
     border-radius: 50%;
@@ -69,7 +69,7 @@
     max-width: 100%;
     width: 212px;
     color: var(--Black---100, #12141d);
-    font: 400 20px Poppins, sans-serif;
+    font: 400 20px 'Times New Roman', Times, serif;
   }
   
   .criteriaArrow {
@@ -135,7 +135,7 @@
       color: var(--White---100, #fafafa);
       white-space: nowrap;
       padding: 0 2px;
-      font: 500 4px Inter, sans-serif;
+      font: 500 4px Inter,'Times New Roman', Times, serif;
     }
     .criteriaIcon {
       border-radius: 50%;
@@ -169,7 +169,7 @@
       max-width: 100%;
       width: 50px;
       color: var(--Black---100, #12141d);
-      font: 400 7px Poppins, sans-serif;
+      font: 400 7px 'Times New Roman', Times, serif;
     }
     
     .criteriaArrow {

@@ -2,7 +2,7 @@
     position: relative;
     z-index: 10;
     margin-top: 20px;
-    font-family: cursive
+    font-family: 'Times New Roman', Times, serif;
   }
   .image{
     position: absolute;
@@ -29,7 +29,7 @@
     text-align: center;
     align-self: end;
     width: 100%;
-    font: 400 25px/39px Nunito, -apple-system, Roboto, Helvetica, sans-serif;
+    font: 400 25px/39px  -apple-system, Roboto, Helvetica,'Times New Roman', Times, serif;
     margin-left: 0px;    /* margin-bottom: 150px; */
   }
   
@@ -39,7 +39,7 @@
   }
   
   .featuredImage {
-    width: 50%;
+    width: 28%;
     margin-left: -234px;
     border-radius: 0;
   }
@@ -75,7 +75,7 @@
       text-align: center;
       align-self: end;
       width: 300px;
-      font: 11px Nunito, -apple-system, Roboto, Helvetica, sans-serif;
+      font: 11px  -apple-system, Roboto, Helvetica,'Times New Roman', Times, serif;
       margin-left: -42px;
       margin-top: 23px;
     }

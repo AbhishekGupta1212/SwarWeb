@@ -1,7 +1,7 @@
 .card {
     display: flex;
     flex-direction: column;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     width: 100%;
   }
   
@@ -47,7 +47,7 @@
     object-position: center;
     width: 100px;
     align-self: flex-end;
-    margin-top: 47px;
+    margin-top: 74px;
     max-width: 100%;
   }
   
@@ -55,7 +55,7 @@
     .card {
       display: flex;
       flex-direction: column;
-      font-family: Inter, sans-serif;
+      font-family: Inter,'Times New Roman', Times, serif;
       width: 100%;
     }
     .icon {

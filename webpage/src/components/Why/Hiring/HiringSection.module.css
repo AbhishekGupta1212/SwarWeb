@@ -3,7 +3,7 @@
   margin-top: 25px;
   margin-left: 56px;
   width: 73%;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
   }
   
   .content {
@@ -34,7 +34,7 @@
     letter-spacing: -0.64px;
     width: 84%;
     padding: 11px 11px;
-    font: 400 21px cursive;
+    font: 400 21px 'Times New Roman', Times, serif;
   }
   
 
@@ -70,7 +70,7 @@
     letter-spacing: -1.44px;
     width: 80%;
     padding: 125px 32px 187px;
-    font: 400 27px cursive;
+    font: 400 27px 'Times New Roman', Times, serif;
   }
   
 
@@ -117,7 +117,7 @@
       letter-spacing: -0.64px;
       width: 100%;
       padding: 0px;
-      font: 400 12px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+      font: 400 12px Poppins, -apple-system, Roboto, Helvetica,'Times New Roman', Times, serif;
     }
     
     .cardTitle {
@@ -152,7 +152,7 @@
       letter-spacing: -1px;
       width: 92%;
       padding: 6px;
-      font: 400 20px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+      font: 400 20px Poppins, -apple-system, Roboto, Helvetica,'Times New Roman', Times, serif;
     }
     
     .roleCard h2{

@@ -5,7 +5,7 @@
   padding: 20px;
   width: 73%;
   border-radius: 56px;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
 }
 .earnSection {
  
@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     color: rgba(2, 8, 23, 1);
-    font: 400 24px Poppins, sans-serif;
+    font: 400 24px 'Times New Roman', Times, serif;
   }
   
   .title {
@@ -60,7 +60,7 @@
     border-radius: 17px;
     padding: 5px 15px;
     border: 1px solid rgba(0, 0, 0, 1);
-    font: 400 16px Poppins, sans-serif;
+    font: 400 16px 'Times New Roman', Times, serif;
   }
   
   .jobCategory:nth-child(1),
@@ -101,7 +101,7 @@
   display: flex;
   flex-direction: column;
   color: rgba(2, 8, 23, 1);
-  font: 400 Poppins, sans-serif;
+  font: 400 'Times New Roman', Times, serif;
 }
 
 .title {
@@ -148,7 +148,7 @@
   border-radius: 17px;
   padding:0px;
   border: 1px solid rgba(0, 0, 0, 1);
-  font: 400 8px Poppins, sans-serif;
+  font: 400 8px 'Times New Roman', Times, serif;
 }
 
 .jobCategory:nth-child(1),

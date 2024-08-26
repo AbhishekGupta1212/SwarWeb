@@ -6,7 +6,7 @@
     align-items: start;
     color: rgba(0, 0, 0, 1);
     padding: 45px 80px;
-    font: 500 20px Poppins, sans-serif;
+    font: 500 20px 'Times New Roman', Times, serif;
     margin-top: 0px;
   }
   
@@ -37,7 +37,7 @@
   .faqQuestion {
     flex-grow: 1;
     font-weight: 500;
-    font-family:Poppins, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     line-height: 30px;
   }
@@ -57,7 +57,7 @@
     font-size: 18px;
     line-height: 30px;
     /* color: blue; */
-    font-family: Poppins, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   @media (max-width: 991px) {

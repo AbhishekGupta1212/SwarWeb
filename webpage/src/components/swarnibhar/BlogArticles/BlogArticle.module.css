@@ -8,7 +8,7 @@
     overflow: hidden;
     align-items: start;
     padding: 76px 0px;
-    font-family: cursive
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .navigationBar {
@@ -23,7 +23,7 @@
     color: #5169f6;
     text-align: center;
     padding: 10px 35px;
-    font: 600 16px Poppins, sans-serif;
+    font: 600 16px 'Times New Roman', Times, serif;
   }
   
   .navItem {
@@ -45,7 +45,7 @@
     gap: 20px;
     color: #5169f6;
     text-align: center;
-    font: 600 16px Poppins, sans-serif;
+    font: 600 16px 'Times New Roman', Times, serif;
   }
   
   .filterTab {
@@ -82,7 +82,7 @@
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    font: 400 16px DM Sans, sans-serif;
+    font: 400 16px DM Sans,'Times New Roman', Times, serif;
     border: 1px solid #8f9bba;
   }
   
@@ -111,7 +111,7 @@
   .readMore {
     color: #a3aed0;
     margin-top: 10px;
-    font: 14px Inter, sans-serif;
+    font: 14px Inter,'Times New Roman', Times, serif;
   }
   
   .authorInfo {
@@ -186,7 +186,7 @@
       flex-direction: column;
       align-items: center;
       margin: 0px auto;
-      font: 400 16px DM Sans, sans-serif;
+      font: 400 16px DM Sans,'Times New Roman', Times, serif;
       border: 1px solid #8f9bba;
     }
     
@@ -214,7 +214,7 @@
     .readMore {
       color: #a3aed0;
       margin-top: 10px;
-      font: 14px Inter, sans-serif;
+      font: 14px Inter,'Times New Roman', Times, serif;
     }
     
     .authorInfo {

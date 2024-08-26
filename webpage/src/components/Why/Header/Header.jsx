@@ -19,7 +19,10 @@ const logos=[
 ]
 
   return (
+    <>
+        <h1>OUR COMMUNITY MEMBERS COME FROM</h1>
 <div className={styles.logoContainer}> 
+
  {logos.map((item, index) => (
 <div  key={index} className={styles.logoWrapper}>
 <img
@@ -30,6 +33,8 @@ const logos=[
 </div>
   ))}
 </div>
+    </>
+
   );
 };
 

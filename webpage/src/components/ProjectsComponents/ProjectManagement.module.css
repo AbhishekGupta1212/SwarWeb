@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    font-family: cursive
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .row {
@@ -29,7 +29,7 @@
     text-align: center;
     align-self: center;
     margin-top: 50px;
-    font: 500 32px Poppins, sans-serif;
+    font: 500 32px 'Times New Roman', Times, serif;
   }
 
   @media only screen and (max-width: 600px){
@@ -64,6 +64,6 @@
       text-align: center;
       align-self: center;
       margin-top: 50px;
-      font: 500 20px Poppins, sans-serif;
+      font: 500 20px 'Times New Roman', Times, serif;
     }
   }

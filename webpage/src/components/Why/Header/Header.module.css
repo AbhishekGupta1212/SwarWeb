@@ -5,7 +5,7 @@
   display: flex;
   border: 1px solid black;
   justify-content: center;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
   gap: 120px;
   padding: 10px;
   max-width: 97%;

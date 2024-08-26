@@ -6,12 +6,12 @@
     align-items: center;
     gap: 40px 100px;
     padding: 10px;
-    margin-top: 15px;
+    margin-top: -7px;
     align-self: center;
-    font-family: cursive
+    font-family: 'Times New Roman', Times, serif;
   }
   .aboutImg{
-    width: 80%;
+    width: 60%;
     margin-left: 130px;
   }
   .subMenu{
@@ -21,7 +21,7 @@
 .subMenuItem{
     border-radius: 10px;
     padding: 12px 20px;
-    font: 600 16px Poppins, sans-serif;
+    font: 600 16px 'Times New Roman', Times, serif;
     cursor: pointer;
 }
   h2{
@@ -43,7 +43,7 @@
   .menuItem {
     color: rgba(81, 105, 246, 1);
     text-align: center;
-    font: 600 16px Poppins, sans-serif;
+    font: 600 16px 'Times New Roman', Times, serif;
     flex-grow: 1;
     margin: auto 0;
     text-decoration: none;
@@ -91,7 +91,7 @@
   .subMenuItem{
       border-radius: 10px;
       padding: 12px 20px;
-      font: 600 8px Poppins, sans-serif;
+      font: 600 8px 'Times New Roman', Times, serif;
       cursor: pointer;
   }
  .aboutImg{
@@ -113,7 +113,7 @@
     .menuItem {
       color: rgba(81, 105, 246, 1);
       text-align: center;
-      font: 400 10px Poppins, sans-serif;
+      font: 400 10px 'Times New Roman', Times, serif;
       flex-grow: 1;
       margin: auto 0;
       text-decoration: none;

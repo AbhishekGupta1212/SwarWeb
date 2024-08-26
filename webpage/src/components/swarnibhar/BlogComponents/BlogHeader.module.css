@@ -2,7 +2,7 @@
     background-color: #fff;
     padding: 58px 170px;
     width: 100%;
-    font-family: cursive
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .navigation {
@@ -13,7 +13,7 @@
     border-radius: 42px;
     padding: 10px 35px;
     color: #5169f6;
-    font: 600 16px Poppins, sans-serif;
+    font: 600 16px 'Times New Roman', Times, serif;
     margin-bottom: 45px;
   }
   
@@ -36,7 +36,7 @@
   .category {
     border-radius: 10px;
     padding: 12px 20px;
-    font: 600 16px Poppins, sans-serif;
+    font: 600 16px 'Times New Roman', Times, serif;
     cursor: pointer;
   }
   
@@ -66,7 +66,7 @@
       border-radius: 42px;
       padding: 10px 35px;
       color: #5169f6;
-      font: 600 16px Poppins, sans-serif;
+      font: 600 16px 'Times New Roman', Times, serif;
       margin-bottom: 45px;
     }
     
@@ -89,7 +89,7 @@
     .category {
       border-radius: 10px;
       padding: 12px 20px;
-      font: 600 8px Poppins, sans-serif;
+      font: 600 8px 'Times New Roman', Times, serif;
       cursor: pointer;
     }
     

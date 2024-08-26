@@ -3,13 +3,13 @@
   color: #fff;
   display: flex;
   width: 80%;
-  font-family: Nunito, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 400;
   padding: 10px 48px;
   height:836.87px;
   flex-direction: column;
   align-items: center;
-  font-family: cursive
+  font-family: 'Times New Roman', Times, serif;
   }
   
   .title {
@@ -39,7 +39,7 @@
       color: #fff;
       display: flex;
       width: 80%;
-      font-family: Nunito, sans-serif;
+      font-family: 'Times New Roman', Times, serif;
       font-weight: 400;
       padding: 15px;
       height:470px;
