@@ -1,8 +1,8 @@
 .container {
   align-self: center;
   margin-top: 25px;
-  margin-left: 223px;
-  width: 80%;
+  margin-left: 182px;
+  width: 76%;
   font-family: cursive;
   }
   
@@ -92,8 +92,9 @@
       align-self: center;
       margin-top: 0px;
       width: 100%;
-      height:140px;
-      margin-bottom: 50px;
+      height:200px;
+      margin-bottom: 0px;
+      margin-left: 0px;
     }
     
     .content {
@@ -104,7 +105,7 @@
       display: flex;
       flex-direction: column;
       line-height: normal;
-      width: 114%;
+      width: 100%;
       margin-left: 0px;
     }
     .candidateCard {
@@ -128,7 +129,7 @@
     
     .cardImage {
       object-position: center;
-      width: 95%;
+      width: 100%;
       margin-top: 0px;
       border-radius: 19px;
     }
@@ -151,9 +152,12 @@
       letter-spacing: -1px;
       width: 92%;
       padding: 6px;
-      font: 400 24px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+      font: 400 20px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
     }
     
+    .roleCard h2{
+      font-size: 25px;
+    }
   
     
     .visually-hidden {

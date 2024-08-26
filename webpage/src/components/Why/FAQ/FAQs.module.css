@@ -124,6 +124,7 @@
       width:98%;
       flex-direction: column;
       padding: 0px;
+      padding-bottom: 5px;
       border: 1px solid rgba(0, 0, 0, 1);
     }
     
@@ -135,8 +136,9 @@
       color: rgba(0, 0, 0, 1);
       white-space: nowrap;
       flex-wrap: nowrap;
-      font-size: 10px;
+      font-size: 8px !important;
       flex-direction: row;
+      margin-bottom: 6px;
       justify-content: space-around;
     }
     
@@ -169,7 +171,7 @@
       width: 100%;
       flex-direction: column;
       color: rgba(52, 57, 69, 1);
-      font: 400 8px Poppins, sans-serif;
+      font: 400 6px Poppins, sans-serif;
     }
     
   
@@ -200,8 +202,8 @@
       background-color: rgba(252, 252, 253, 1);
       border-radius: 50%;
       display: flex;
-      width: 15px;
-      height: 15px;
+      width: 8px;
+      height: 8px;
       margin: auto 0;
     }
     
@@ -222,12 +224,12 @@
       background-color: rgba(252, 252, 253, 1);
       border-radius: 50%;
       display: flex;
-      width: 15px;
-      height: 15px;
+      width: 8px;
+      height: 8px;
     }
     
     .answerText {
-      margin-top: 15px;
+      margin-top: 7px;
     }
   
   }

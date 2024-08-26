@@ -58,15 +58,16 @@
       text-align: center;
       color: #02081f;
       font-weight: 700;
-      margin-top: 12px;
-      padding-top: 5px;
+      margin-top: 11px;
+      margin-bottom: 5px;
+      padding-top: 7px;
     }
     
     .categoryButtons {
       display: flex;
       justify-content: center;
       gap: 2px;
-      margin-bottom: 0px;
+      margin-bottom: 5px;
     }
     
     .eventGrid {

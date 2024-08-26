@@ -19,12 +19,12 @@
       background-color: #fff;
       border-radius: 0px 0px 50% 50%;
       z-index: 11;
-      margin-top: 12px;
+      margin-top: -22px;
       color: #000;
       white-space: nowrap;
       font: 400 18px Poppins, sans-serif;
       text-align: center;
-      margin-bottom: -100px;
+      margin-bottom: -52px;
       padding: 50px 50px 16px;
     }
   }

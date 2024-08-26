@@ -262,7 +262,7 @@
     color: #fff;
     text-transform: uppercase;
     margin-top: 0px;
-    font: 400 16px Poppins, sans-serif;
+    font: 400 6px Poppins, sans-serif;
   }
   
   
@@ -306,21 +306,22 @@
   .logo {
     object-fit: contain;
     object-position: center;
+    width: 15%;
   }
   
   .logo1 {
     aspect-ratio: 1.62;
-    width: 50px;
+    width: 20px;
   }
   
   .logo2 {
     aspect-ratio: 3.77;
-    width: 54px;
+    width: 24px;
   }
   
   .logo3 {
     aspect-ratio: 2.17;
-    width: 20px;
+    width: 10px;
   }
   
   .socialIcons {
@@ -382,6 +383,7 @@
     line-height: 0px;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 1px 2px;
   }
   
   
@@ -395,6 +397,7 @@
     display: flex;
     align-items: center;
     gap: 0px;
+  
     font-family: Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
     justify-content: center;
   }
@@ -402,7 +405,7 @@
   .legalLink {
     align-self: stretch;
     margin-right: 16px;
-    font-size: 5px;
+    font-size: 4px;
   }
   
   .visually-hidden {
@@ -425,7 +428,7 @@
     color: #1e94f9;
   }
   .footerHeaading{
-    font: 500 61px Poppins, sans-serif;
+    font: 500 28px Poppins, sans-serif;
     color: rgba(53, 54, 57, 1);
     margin-bottom: -57px;
     margin-top: 8px;

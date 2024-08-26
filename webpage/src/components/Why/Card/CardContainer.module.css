@@ -1,7 +1,7 @@
 .cardContainer {
   align-self: center;
   margin-top: 30px;
-  margin-left: 115px;
+  margin-left: 45px;
   width: 100%;
   margin-bottom: 30px;
   font-family: cursive
@@ -95,6 +95,8 @@ margin: 0px;
     .cardGrid {
       display: flex;
       gap: 8px;
+      width: 100%;
+      margin-left: 4px;
     }
     
     
@@ -129,10 +131,10 @@ margin: 0px;
     .imageOverlay {
       position: relative;
       padding: 276px 32px 58px;
-      color: rgba(255, 253, 250, 1);
-      margin-top: 0px;
+      color: rgb(248, 246, 246);
+      margin-top: -180px;
       letter-spacing: -1.44px;
-      font: 400 -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 15px;
     }
     
   
@@ -141,7 +143,7 @@ margin: 0px;
       display: flex;
       flex-direction: column;
       line-height: normal;
-      width: 70%;
+      width: 50%;
       height: 194px;
       margin-left: 0px;
     }

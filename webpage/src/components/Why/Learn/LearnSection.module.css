@@ -44,10 +44,11 @@
     .learnSection {
       border-radius: 30px;
       background-color: rgba(240, 242, 255, 1);
-      margin-top: 0px;
+      margin-top: 15px;
       width: 92.5%;
       padding: 0px;
       display: flex;
+      margin-left: 15px;
       margin-bottom: 5px;
       height:140px;
       gap: 0px;
